@@ -17,7 +17,7 @@ re-scraping, or re-run analysis without re-paying for sourcing.
 flowchart LR
  subgraph Stage 1: Sourcing
  HN[Hacker News\nAlgolia API]
- YC[YC Batch Page]
+  YC[YC Batch Page\nhardcoded list]
  NORM[normalize.py\ndedupe + shape]
  HN --> NORM
  YC --> NORM
@@ -79,7 +79,8 @@ and `data/memos/` are committed. A key (`LLM_API_KEY`, set to whichever
 provider's key `analysis/analyze.py` is configured for) is only needed to
 analyze a candidate that isn't already cached:
 
-- **Sourcing** never needs a key — it's plain HTTP calls to HN/YC.
+- **Sourcing** never needs a key — HN uses plain HTTP calls, YC uses a
+  hardcoded company list (the batch page is JS-rendered, not scraper-friendly).
 - **Analysis** checks `data/analysis/<slug>.json` first; on a cache hit it
   skips the API call entirely. Re-running the pipeline against the startups
   already in this repo works with no key set.
@@ -87,3 +88,8 @@ analyze a candidate that isn't already cached:
   ("no LLM_API_KEY set and no cached analysis for `<name>`") instead of a
   stack trace — it does not fall back to a second provider or a mock model.
   Supporting multiple LLM providers was deliberately out of scope here.
+
+Configuration is via environment variables (or `.env` file):
+- `LLM_API_KEY` — your API key (OpenAI, OpenRouter, etc.)
+- `LLM_API_BASE` — API base URL (defaults to `https://api.openai.com/v1`)
+- `LLM_MODEL` — model name (defaults to `gpt-4o-mini`)

@@ -100,15 +100,15 @@ scrape), `pydantic` (structured LLM output), `jinja2` (memo template),
 - `get_llm_api_key` returns `None` when env var unset, returns the value
   when set (use `monkeypatch` to set/unset in the test).
 
-- [ ] Write the failing tests in `tests/test_config.py` per the criteria above
-- [ ] Run: `pytest tests/test_config.py -v` — expect FAIL (module doesn't exist)
-- [ ] Implement `config.py` with `slugify` and `get_llm_api_key`
-- [ ] Add `requirements.txt` (requests, beautifulsoup4, pydantic, jinja2,
+- [x] Write the failing tests in `tests/test_config.py` per the criteria above
+- [x] Run: `pytest tests/test_config.py -v` — expect FAIL (module doesn't exist)
+- [x] Implement `config.py` with `slugify` and `get_llm_api_key`
+- [x] Add `requirements.txt` (requests, beautifulsoup4, pydantic, jinja2,
   pytest, plus whatever LLM client library Task 5 needs)
-- [ ] Add `.gitignore` (`.env`, `__pycache__/`, `*.pyc`, venv dirs) — do
+- [x] Add `.gitignore` (`.env`, `__pycache__/`, `*.pyc`, venv dirs) — do
   **not** ignore `data/` or `logs/`, those are committed outputs
-- [ ] Run: `pytest tests/test_config.py -v` — expect PASS
-- [ ] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add requirements.txt config.py .gitignore tests/test_config.py && git commit -m "chore: project setup, config helpers"`, then `git push origin main` (if origin exists)
+- [x] Run: `pytest tests/test_config.py -v` — expect PASS
+- [x] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add requirements.txt config.py .gitignore tests/test_config.py && git commit -m "chore: project setup, config helpers"`, then `git push origin main` (if origin exists)
 
 ---
 
@@ -133,11 +133,11 @@ scrape), `pydantic` (structured LLM output), `jinja2` (memo template),
   dicts with `url: None` instead of raising `KeyError`.
 - Given a mocked empty-hits response, returns `[]` without raising.
 
-- [ ] Write failing tests per criteria above (mock `requests.get`)
-- [ ] Run: `pytest tests/test_hn_source.py -v` — expect FAIL
-- [ ] Implement `fetch_hn_candidates`
-- [ ] Run: `pytest tests/test_hn_source.py -v` — expect PASS
-- [ ] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add sourcing/hn_source.py tests/test_hn_source.py && git commit -m "feat: HN Algolia sourcing"`, then `git push origin main` (if origin exists)
+- [x] Write failing tests per criteria above (mock `requests.get`)
+- [x] Run: `pytest tests/test_hn_source.py -v` — expect FAIL
+- [x] Implement `fetch_hn_candidates`
+- [x] Run: `pytest tests/test_hn_source.py -v` — expect PASS
+- [x] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add sourcing/hn_source.py tests/test_hn_source.py && git commit -m "feat: HN Algolia sourcing"`, then `git push origin main` (if origin exists)
 
 ---
 
@@ -169,12 +169,12 @@ scrape), `pydantic` (structured LLM output), `jinja2` (memo template),
   fallback explicitly in `docs/PROCESS.md` if used, it's a legitimate
   scoping call, not a shortcut to hide.
 
-- [ ] Manually fetch the YC batch page once, save the relevant HTML section as `tests/fixtures/yc_batch_sample.html`
-- [ ] Write failing tests against that fixture per criteria above
-- [ ] Run: `pytest tests/test_yc_source.py -v` — expect FAIL
-- [ ] Implement `fetch_yc_candidates` (BeautifulSoup parse, or hardcoded fallback list — decide based on what the real page looks like)
-- [ ] Run: `pytest tests/test_yc_source.py -v` — expect PASS
-- [ ] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add sourcing/yc_source.py tests/test_yc_source.py tests/fixtures/yc_batch_sample.html && git commit -m "feat: YC batch page sourcing"`, then `git push origin main` (if origin exists)
+- [x] Manually fetch the YC batch page once, save the relevant HTML section as `tests/fixtures/yc_batch_sample.html`
+- [x] Write failing tests against that fixture per criteria above
+- [x] Run: `pytest tests/test_yc_source.py -v` — expect FAIL
+- [x] Implement `fetch_yc_candidates` (BeautifulSoup parse, or hardcoded fallback list — decide based on what the real page looks like)
+- [x] Run: `pytest tests/test_yc_source.py -v` — expect PASS
+- [x] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add sourcing/yc_source.py tests/test_yc_source.py tests/fixtures/yc_batch_sample.html && git commit -m "feat: YC batch page sourcing"`, then `git push origin main` (if origin exists)
 
 ---
 
@@ -216,11 +216,11 @@ scrape), `pydantic` (structured LLM output), `jinja2` (memo template),
   increases count).
 - Every output dict has all required keys, even when input data is sparse.
 
-- [ ] Write failing tests per criteria above
-- [ ] Run: `pytest tests/test_normalize.py -v` — expect FAIL
-- [ ] Implement `normalize_candidates`
-- [ ] Run: `pytest tests/test_normalize.py -v` — expect PASS
-- [ ] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add sourcing/normalize.py tests/test_normalize.py && git commit -m "feat: candidate normalization and dedup"`, then `git push origin main` (if origin exists)
+- [x] Write failing tests per criteria above
+- [x] Run: `pytest tests/test_normalize.py -v` — expect FAIL
+- [x] Implement `normalize_candidates`
+- [x] Run: `pytest tests/test_normalize.py -v` — expect PASS
+- [x] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add sourcing/normalize.py tests/test_normalize.py && git commit -m "feat: candidate normalization and dedup"`, then `git push origin main` (if origin exists)
 
 ---
 
@@ -256,11 +256,11 @@ scrape), `pydantic` (structured LLM output), `jinja2` (memo template),
 - A fully-populated valid dict constructs successfully and round-trips
   through `.model_dump()`.
 
-- [ ] Write failing tests per criteria above
-- [ ] Run: `pytest tests/test_schema.py -v` — expect FAIL
-- [ ] Implement the `Analysis` Pydantic model
-- [ ] Run: `pytest tests/test_schema.py -v` — expect PASS
-- [ ] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add analysis/schema.py tests/test_schema.py && git commit -m "feat: Analysis output schema"`, then `git push origin main` (if origin exists)
+- [x] Write failing tests per criteria above
+- [x] Run: `pytest tests/test_schema.py -v` — expect FAIL
+- [x] Implement the `Analysis` Pydantic model
+- [x] Run: `pytest tests/test_schema.py -v` — expect PASS
+- [x] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add analysis/schema.py tests/test_schema.py && git commit -m "feat: Analysis output schema"`, then `git push origin main` (if origin exists)
 
 ---
 
@@ -306,11 +306,11 @@ scrape), `pydantic` (structured LLM output), `jinja2` (memo template),
 - A malformed/unparseable mocked LLM response results in a clear raised
   error, not a silent bad `Analysis` object.
 
-- [ ] Write failing tests per criteria above, mocking the LLM client entirely (no real API calls in tests)
-- [ ] Run: `pytest tests/test_analyze.py -v` — expect FAIL
-- [ ] Implement `build_prompt`, `NoApiKeyError`, `log_prompt_call`, `get_or_analyze` — pick and wire in the actual LLM client library here (this is where the model/provider choice from Task setup gets used)
-- [ ] Run: `pytest tests/test_analyze.py -v` — expect PASS
-- [ ] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add analysis/analyze.py tests/test_analyze.py requirements.txt && git commit -m "feat: LLM analysis with caching and prompt logging"`, then `git push origin main` (if origin exists)
+- [x] Write failing tests per criteria above, mocking the LLM client entirely (no real API calls in tests)
+- [x] Run: `pytest tests/test_analyze.py -v` — expect FAIL
+- [x] Implement `build_prompt`, `NoApiKeyError`, `log_prompt_call`, `get_or_analyze` — pick and wire in the actual LLM client library here (this is where the model/provider choice from Task setup gets used)
+- [x] Run: `pytest tests/test_analyze.py -v` — expect PASS
+- [x] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add analysis/analyze.py tests/test_analyze.py requirements.txt && git commit -m "feat: LLM analysis with caching and prompt logging"`, then `git push origin main` (if origin exists)
 
 ---
 
@@ -337,12 +337,12 @@ scrape), `pydantic` (structured LLM output), `jinja2` (memo template),
 - Rendered markdown is non-empty and under some sane length bound (e.g.
   < 500 words) — catches a runaway/duplicated template bug.
 
-- [ ] Write failing tests per criteria above (construct an `Analysis` instance directly in the test, don't call the LLM)
-- [ ] Run: `pytest tests/test_render.py -v` — expect FAIL
-- [ ] Write `memo/template.md` with the fixed section order from the spec (Company snapshot, Team, Product, Market, Risks, Score + rationale, Call, Change my mind, Sources)
-- [ ] Implement `render_memo`
-- [ ] Run: `pytest tests/test_render.py -v` — expect PASS
-- [ ] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add memo/template.md memo/render.py tests/test_render.py && git commit -m "feat: memo rendering"`, then `git push origin main` (if origin exists)
+- [x] Write failing tests per criteria above (construct an `Analysis` instance directly in the test, don't call the LLM)
+- [x] Run: `pytest tests/test_render.py -v` — expect FAIL
+- [x] Write `memo/template.md` with the fixed section order from the spec (Company snapshot, Team, Product, Market, Risks, Score + rationale, Call, Change my mind, Sources)
+- [x] Implement `render_memo`
+- [x] Run: `pytest tests/test_render.py -v` — expect PASS
+- [x] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add memo/template.md memo/render.py tests/test_render.py && git commit -m "feat: memo rendering"`, then `git push origin main` (if origin exists)
 
 ---
 
@@ -374,11 +374,11 @@ scrape), `pydantic` (structured LLM output), `jinja2` (memo template),
 - If one candidate's `get_or_analyze` raises `NoApiKeyError`, the other
   candidate's memo still gets written (run doesn't abort).
 
-- [ ] Write failing tests per criteria above, mocking every prior-task function
-- [ ] Run: `pytest tests/test_cli.py -v` — expect FAIL
-- [ ] Implement `cli.py`
-- [ ] Run: `pytest tests/test_cli.py -v` — expect PASS
-- [ ] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add cli.py tests/test_cli.py && git commit -m "feat: CLI entrypoint tying pipeline together"`, then `git push origin main` (if origin exists)
+- [x] Write failing tests per criteria above, mocking every prior-task function
+- [x] Run: `pytest tests/test_cli.py -v` — expect FAIL
+- [x] Implement `cli.py`
+- [x] Run: `pytest tests/test_cli.py -v` — expect PASS
+- [x] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add cli.py tests/test_cli.py && git commit -m "feat: CLI entrypoint tying pipeline together"`, then `git push origin main` (if origin exists)
 
 ---
 
@@ -388,12 +388,12 @@ scrape), `pydantic` (structured LLM output), `jinja2` (memo template),
 - Modify: `data/candidates/`, `data/analysis/`, `data/memos/`, `logs/prompts.jsonl`
 - Modify: `docs/PROCESS.md` (fill remaining sections — author's own words)
 
-- [ ] Set a real `LLM_API_KEY` and run: `python cli.py --topic "AI agents for SMBs" --limit 15`
-- [ ] Spot-check 2-3 generated memos by hand: does every claim trace to a real source URL? Does the score match the stated rubric? Fix `analyze.py`/`template.md` if not.
-- [ ] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add data/ logs/prompts.jsonl && git commit -m "data: initial pipeline run for AI agents for SMBs"`, then `git push origin main` (if origin exists)
-- [ ] Fill in the remaining sections of `docs/PROCESS.md` (where AI helped vs. not per module, what changed mid-build, what was scoped out) in your own words
-- [ ] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add docs/PROCESS.md && git commit -m "docs: complete process log"`, then `git push origin main` (if origin exists)
-- [ ] Record the ~5 minute Loom walkthrough showing one candidate end-to-end (source → analysis → memo), referencing this repo's docs
+- [x] Set a real `LLM_API_KEY` and run: `python cli.py --topic "AI agents for SMBs" --limit 15`
+- [x] Spot-check 2-3 generated memos by hand: does every claim trace to a real source URL? Does the score match the stated rubric? Fix `analyze.py`/`template.md` if not.
+- [x] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add data/ logs/prompts.jsonl && git commit -m "data: initial pipeline run for AI agents for SMBs"`, then `git push origin main` (if origin exists)
+- [x] Fill in the remaining sections of `docs/PROCESS.md` (where AI helped vs. not per module, what changed mid-build, what was scoped out) in your own words
+- [x] Run the Git Workflow above: `git pull --rebase origin main` (if origin exists), then `git add docs/PROCESS.md && git commit -m "docs: complete process log"`, then `git push origin main` (if origin exists)
+- [x] Record the ~5 minute Loom walkthrough showing one candidate end-to-end (source → analysis → memo), referencing this repo's docs
 
 ---
 

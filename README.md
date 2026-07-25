@@ -50,7 +50,7 @@ design rationale.
 │
 ├── sourcing/ Stage 1: Sourcing
 │ ├── hn_source.py Hacker News Algolia API
-│ ├── yc_source.py YC batch page scrape
+│ ├── yc_source.py YC W25 hardcoded list (page is JS-rendered)
 │ └── normalize.py dedupe + shared Candidate shape
 │
 ├── analysis/ Stage 2: Analysis
@@ -88,8 +88,16 @@ to also send the implementation to convey the design.
 
 ```bash
 pip install -r requirements.txt
-export LLM_API_KEY=...
-python cli.py --topic "AI agents for SMBs"
+
+# Option A: export API key (OpenAI, OpenRouter, etc.)
+export LLM_API_KEY=sk-...
+export LLM_API_BASE=https://openrouter.ai/api/v1   # optional, defaults to OpenAI
+export LLM_MODEL=openai/gpt-4o-mini                # optional, defaults to gpt-4o-mini
+
+# Option B: create a .env file (LLM_API_KEY, LLM_API_BASE, LLM_MODEL)
+# (.env is gitignored — key stays local)
+
+python cli.py --topic "AI agents for SMBs" --limit 15
 ```
 
 All pipeline outputs are already committed under `data/`, so you can read
@@ -110,10 +118,11 @@ Outputs (all committed to this repo so they can be read without re-running):
 - [Investment Thesis](docs/THESIS.md) — the specific thesis and scoring rubric this pipeline scores against
 - `docs/specs/` — design spec (the "what") and implementation plan (the "how"), written before any code
 - [Process](docs/PROCESS.md) — decision log: what was decided, why, what AI drafted vs. reviewed; updated as the build progresses
-- [LLM] - https://openrouter.ai/labs
+- [OpenRouter](https://openrouter.ai/labs) — LLM provider used for analysis (OpenAI-compatible, configure via `.env`)
 
 ## Status
 
-Design and docs finalized. Implementation is in progress task-by-task per
-`docs/specs/investment-pipeline-plan.md` — check that file's
-checkboxes for exactly which tasks are done.
+Implementation complete. All 9 tasks in `docs/specs/investment-pipeline-plan.md`
+are done. The repo includes 29 committed candidate analyses and memos
+from a real pipeline run (HN Algolia + hardcoded YC W25 → LLM analysis →
+markdown memos).
