@@ -3,12 +3,17 @@
   "name": "Resend",
   "website": "https://resend.com",
   "description": "Email API for developers to send transactional emails",
-  "founders": null,
+  "founders": "Zeno Rocha (Founder & CEOFounder & CEO at Resend.); Bu Kinoshita (Founder Co-founder & CTO at Resend and building react.email.)",
   "traction_signal": {
     "type": "yc_batch",
     "detail": "YC W25",
     "source_url": "https://www.ycombinator.com/companies?batch=W25"
   },
   "source": "yc",
-  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  "source_url": "https://www.ycombinator.com/companies?batch=W25",
+  "extra": {
+    "founded": "2023",
+    "batch": "Winter 2023",
+    "team_size": "45"
+  }
 }

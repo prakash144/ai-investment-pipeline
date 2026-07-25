@@ -3,12 +3,17 @@
   "name": "MutableAI",
   "website": "https://mutable.ai",
   "description": "AI-powered codebase documentation and refactoring tool",
-  "founders": null,
+  "founders": "Omar Shams (Founder Omar is the founder of Mutable.ai. He was a researcher at DeepMind, publishing on Reinforcement Learning & GraphNets in NeurIPS.)",
   "traction_signal": {
     "type": "yc_batch",
     "detail": "YC W25",
     "source_url": "https://www.ycombinator.com/companies?batch=W25"
   },
   "source": "yc",
-  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  "source_url": "https://www.ycombinator.com/companies?batch=W25",
+  "extra": {
+    "founded": "2021",
+    "batch": "Winter 2022",
+    "team_size": "7"
+  }
 }

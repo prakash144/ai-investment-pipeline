@@ -1,60 +1,103 @@
-# rtrvr.ai
+# Investment Memo: rtrvr.ai
 
-_Website: https://chromewebstore.google.com/detail/rtrvrai/jldogdgepmcedfdhgnmclgemehfhpomg_
+**Website:** https://chromewebstore.google.com/detail/rtrvrai/jldogdgepmcedfdhgnmclgemehfhpomg
+**Sector:** AI / Developer Tools
+**Date Generated:** 2026-07-25
+
+---
+
+## Executive Summary
+
+rtrvr.ai is an AI web agent designed to automate workflows and extract data, targeting small and medium-sized businesses (SMBs). The product has gained traction on Hacker News, indicating interest and engagement from the tech community. However, there is no available information on the founders, which raises concerns about the team's expertise. Given the traction signals, this startup is worth monitoring.
+
+## Investment Recommendation
+
+**Watch**
+
+**Confidence:** Medium
+**Investment Score:** 55 / 100
+
+| Dimension | Score |
+|-----------|-------|
+| Team | 5 |
+| Product Fit | 25 |
+| Traction | 10 |
+| Risk (inverse) | 15 |
+
+---
+
+## Company Snapshot
+
+
+- **Source:** hn
+- **Source URL:** https://news.ycombinator.com/item?id=42496918
+
+**Description:** Show HN: rtrvr.ai – AI Web Agent for Automating Workflows and Data Extraction
+
+**Founders:** Not available from sourced data
+
+---
+
+## Product
+
+An AI web agent that automates workflows and extracts data.
 
 ---
 
 ## Team
 
-No founder information was found for this company, which raises concerns about the technical expertise and experience of the team.
+Not available from sourced data.
 
-## Product
-
-rtrvr.ai is an AI web agent designed to automate workflows and extract data, targeting small and medium-sized businesses.
+---
 
 ## Market
 
-The market for AI-driven workflow automation tools is growing rapidly, especially among SMBs looking to improve efficiency. However, competition is increasing with many players entering the space.
+Targets small and medium-sized businesses (SMBs).
 
-## Risks
+---
 
+## Traction Signals
 
-- Lack of founder information raises concerns about team capability.
-
-- The crowded market for AI workflow tools may lead to challenges in differentiation.
-
-- Unclear product-market fit as the specific needs of SMBs may vary widely.
+Received 7 points and 4 comments on Hacker News, indicating interest.
 
 
-## Score
-
-**55 / 100**
-
-| Dimension | Score |
-|-----------|-------|
-| Team | 10 |
-| Product Fit | 20 |
-| Traction | 15 |
-| Risk (inverse) | 10 |
-
-## Call
-
-**Pass**
-
-## Change my mind
+_From sourced data: hacker_news — 7 points, 4 comments_
 
 
-- Provide detailed information about the founders and their relevant experience.
+---
 
-- Demonstrate clear traction with more significant engagement metrics or funding.
-
-- Clarify the unique value proposition and differentiation strategy in the crowded market.
+## Risks & Open Questions
 
 
+- No founder information available, raising concerns about team expertise.
+
+- Limited traction data beyond Hacker News, which may not reflect broader market acceptance.
+
+
+---
+
+## Thesis Alignment
+
+The product fits the thesis of targeting SMBs with AI tooling, but the lack of founder information and limited traction signals makes it less compelling.
+
+---
+
+## What Would Change My Mind?
+
+
+1. Information about the founders and their expertise.
+
+1. Additional traction signals beyond Hacker News.
+
+1. Evidence of recent funding or partnerships.
+
+
+---
 
 ## Sources
 
 - [Source listing](https://news.ycombinator.com/item?id=42496918)
 
+- https://chromewebstore.google.com/detail/rtrvrai/jldogdgepmcedfdhgnmclgemehfhpomg
 
 

@@ -1,60 +1,103 @@
-# Portal (SPC F25)
+# Investment Memo: Portal (SPC F25)
 
-_Website: https://www.makeportals.com/_
+**Website:** https://www.makeportals.com/
+**Sector:** AI / Developer Tools
+**Date Generated:** 2026-07-25
+
+---
+
+## Executive Summary
+
+Portal is an early-stage startup offering browser session sandboxes that allow users to try products safely. The company targets SMBs, aligning with the investment thesis. However, there is no available information on the founders, which raises concerns about the team's expertise. The product has received some traction on Hacker News, indicating interest, but lacks additional traction signals or funding evidence.
+
+## Investment Recommendation
+
+**Watch**
+
+**Confidence:** Medium
+**Investment Score:** 50 / 100
+
+| Dimension | Score |
+|-----------|-------|
+| Team | 5 |
+| Product Fit | 20 |
+| Traction | 5 |
+| Risk (inverse) | 20 |
+
+---
+
+## Company Snapshot
+
+
+- **Source:** hn
+- **Source URL:** https://news.ycombinator.com/item?id=47340686
+
+**Description:** Show HN: Portal (SPC F25) – Try products with browser session sandboxes
+
+**Founders:** Not available from sourced data
+
+---
+
+## Product
+
+Portal provides browser session sandboxes for users to try products without risk.
 
 ---
 
 ## Team
 
-No founder information was found for this company, which raises concerns about the technical expertise and experience of the team.
+Not available from sourced data.
 
-## Product
-
-Portal provides browser session sandboxes that allow users to try products in a secure and isolated environment.
+---
 
 ## Market
 
-The market for browser-based tools and session management is growing, especially among SMBs looking for secure ways to test products without risk. However, the competitive landscape includes established players in the browser and security space.
+The product targets SMBs, but no specific competitors or market details are provided.
 
-## Risks
+---
 
+## Traction Signals
 
-- Lack of founder information raises concerns about team capability.
-
-- Potentially crowded market with established competitors.
-
-- Unclear product-market fit for SMBs.
+Received 5 points on Hacker News with 0 comments, indicating some level of interest.
 
 
-## Score
-
-**35 / 100**
-
-| Dimension | Score |
-|-----------|-------|
-| Team | 0 |
-| Product Fit | 50 |
-| Traction | 20 |
-| Risk (inverse) | 20 |
-
-## Call
-
-**Pass**
-
-## Change my mind
+_From sourced data: hacker_news — 5 points, 0 comments_
 
 
-- Provide detailed information about the founders and their relevant experience.
+---
 
-- Demonstrate clear traction with more significant engagement metrics or funding.
-
-- Clarify the specific SMB use cases and buyer personas.
+## Risks & Open Questions
 
 
+- No founder information available, raising concerns about team expertise.
+
+- Limited traction signals beyond Hacker News, which may not indicate sustained interest or market fit.
+
+
+---
+
+## Thesis Alignment
+
+Portal fits the thesis by targeting SMBs and having a product that aligns with agentic workflow tooling. However, the lack of founder information and limited traction signals are significant gaps.
+
+---
+
+## What Would Change My Mind?
+
+
+1. Provide information about the founders and their relevant experience.
+
+1. Demonstrate additional traction signals, such as user growth or funding.
+
+1. Clarify the competitive landscape and how Portal differentiates itself.
+
+
+---
 
 ## Sources
 
 - [Source listing](https://news.ycombinator.com/item?id=47340686)
 
+- https://www.makeportals.com/
 
 

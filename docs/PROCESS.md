@@ -87,10 +87,14 @@ a working repo fastest.
 - **OpenRouter integration**: Used OpenRouter with `gpt-4o-mini` instead of direct OpenAI because it supports multiple providers through one key. Had to switch from `gpt-4o` to `gpt-4o-mini` after hitting credit limits on the larger model.
 - **`.env` loading**: Added after the first pipeline run failed to find `LLM_API_KEY` — the key was in a `.env` file but `config.py` only checked `os.environ`. Added a simple `.env` parser (no `python-dotenv` dependency) as a fallback.
 - **`max_tokens` limit**: OpenRouter's default `max_tokens` exceeds the free tier; added an explicit `max_tokens=2000` to the LLM call.
+- **Parallel enrichment + analysis**: After audit, the serial loop over 29 candidates took ~50s. Added `ThreadPoolExecutor` to both enrichment (in `normalize.py`) and analysis (in `cli.py`), controlled by `--workers` (default 5). Thread-safe log writing via `threading.Lock` in `analyze.py`. Full run now ~11s.
+- **YC enrichment tests (+17)**: Enrichment was the only module with zero test coverage. Added `tests/test_enrichment.py` covering cache hit/miss, network failure, non-200 responses, HTML parsing, metadata extraction, founder title cleaning, and slugify.
+- **`__init__.py` files**: Added to all packages so Python treats them as proper packages, enabling cleaner imports and tooling support.
 
 ## What I'd do differently / scoped out on purpose
 
-- **Richer founder data**: If I had more time, I'd add a step to enrich YC candidates with founder info from Crunchbase or LinkedIn. The YC directory does list founders but requires individual company page scraping. Scoped out to avoid per-company scraping complexity.
+- **YC company page enrichment**: Initially scoped out because individual page scraping seemed too complex for the take-home scope. Later added it (along with caching) to fix the all-Pass bug — without founder info the LLM scores Team at zero regardless of company quality. The scraping approach is robust: BeautifulSoup on server-rendered HTML with regex extraction, ~0.3s per page with parallel workers.
+- **Product Hunt sourcing**: PH has an API but requires OAuth setup. Given the take-home's scope guidance ("pick one or two sources"), HN + YC is the right depth-vs-breadth call.
 - **Product Hunt sourcing**: PH has an API but requires OAuth setup. Given the take-home's scope guidance ("pick one or two sources"), HN + YC is the right depth-vs-breadth call.
 - **Better traction signals**: For YC companies, batch alone is a weak traction signal. A future improvement would cross-reference each YC company against HN/Product Hunt to find launches or discussions.
 - **Multi-model support**: The pipeline hardcodes one model (configurable via `LLM_MODEL`). Supporting multiple providers in parallel was rejected as overengineering for a 20-candidate pipeline.

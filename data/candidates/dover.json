@@ -3,12 +3,17 @@
   "name": "Dover",
   "website": "https://dover.com",
   "description": "AI-powered recruiting automation platform for SMBs",
-  "founders": null,
+  "founders": "George Carollo (Founder Founder at Dover (S19) \u2013\u2013 free recruiting tools for startups)",
   "traction_signal": {
     "type": "yc_batch",
     "detail": "YC W25",
     "source_url": "https://www.ycombinator.com/companies?batch=W25"
   },
   "source": "yc",
-  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  "source_url": "https://www.ycombinator.com/companies?batch=W25",
+  "extra": {
+    "founded": "2019",
+    "batch": "Summer 2019",
+    "team_size": "12"
+  }
 }

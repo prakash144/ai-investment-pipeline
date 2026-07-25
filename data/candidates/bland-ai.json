@@ -3,12 +3,17 @@
   "name": "Bland AI",
   "website": "https://bland.ai",
   "description": "AI phone call agents for businesses to automate customer interactions",
-  "founders": null,
+  "founders": "Isaiah Granet (Founderbuilding things that talk back.); Sobhan Nejad (Founder Co-founder of Bland AI. Building the enterprise platform for AI phone calling.)",
   "traction_signal": {
     "type": "yc_batch",
     "detail": "YC W25",
     "source_url": "https://www.ycombinator.com/companies?batch=W25"
   },
   "source": "yc",
-  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  "source_url": "https://www.ycombinator.com/companies?batch=W25",
+  "extra": {
+    "founded": "2023",
+    "batch": "Summer 2023",
+    "team_size": "65"
+  }
 }

@@ -1,60 +1,107 @@
-# Kremis
+# Investment Memo: Kremis
 
-_Website: https://github.com/M2Dr3g0n/kremis_
+**Website:** https://github.com/M2Dr3g0n/kremis
+**Sector:** AI / Developer Tools
+**Date Generated:** 2026-07-25
+
+---
+
+## Executive Summary
+
+Kremis is a project focused on creating a deterministic memory graph for AI agents, built using Rust. The product aims to enhance AI workflows, particularly for small and medium-sized businesses (SMBs). However, there is no available information on the founding team, which raises concerns about their expertise. The project has received some traction on Hacker News, indicating interest in the community.
+
+## Investment Recommendation
+
+**Pass**
+
+**Confidence:** Low
+**Investment Score:** 45 / 100
+
+| Dimension | Score |
+|-----------|-------|
+| Team | 5 |
+| Product Fit | 20 |
+| Traction | 10 |
+| Risk (inverse) | 10 |
+
+---
+
+## Company Snapshot
+
+
+- **Source:** hn
+- **Source URL:** https://news.ycombinator.com/item?id=47048981
+
+**Description:** Show HN: Kremis – Deterministic memory graph for AI agents (Rust)
+
+**Founders:** Not available from sourced data
+
+---
+
+## Product
+
+Kremis builds a deterministic memory graph designed for AI agents, which can help streamline AI workflows.
 
 ---
 
 ## Team
 
-No founder information was found for this company, which raises concerns about the technical expertise and experience necessary to execute the vision.
+Not available from sourced data.
 
-## Product
-
-Kremis is a deterministic memory graph designed for AI agents, built using Rust, which aims to enhance the functionality and efficiency of AI workflows.
+---
 
 ## Market
 
-The market for AI tooling is rapidly growing, especially among SMBs looking to leverage AI for operational efficiency. However, the specific niche of deterministic memory graphs may face competition from broader AI solutions.
+The product targets small and medium-sized businesses (SMBs) but does not mention specific competitors.
 
-## Risks
+---
 
+## Traction Signals
 
-- Lack of founder information raises concerns about team capability.
-
-- The product's niche focus may limit its appeal to a broader SMB audience.
-
-- Low traction on Hacker News indicates limited initial interest or visibility.
+The project received 1 point on Hacker News, indicating some level of interest.
 
 
-## Score
-
-**35 / 100**
-
-| Dimension | Score |
-|-----------|-------|
-| Team | 0 |
-| Product Fit | 50 |
-| Traction | 20 |
-| Risk (inverse) | 40 |
-
-## Call
-
-**Pass**
-
-## Change my mind
+_From sourced data: hacker_news — 1 points, 0 comments_
 
 
-- Provide detailed information about the founder's background and experience.
+---
 
-- Demonstrate stronger traction signals, such as more engagement or feedback from the community.
-
-- Clarify the product's use case and its appeal to a wider SMB audience.
+## Risks & Open Questions
 
 
+- No information on the founding team raises concerns about technical expertise.
+
+- Limited traction with only 1 point on Hacker News suggests low visibility.
+
+- No recent funding signals or product launch information.
+
+
+---
+
+## Thesis Alignment
+
+Kremis fits the thesis of targeting SMBs with AI tooling, but the lack of founder information and limited traction are significant gaps.
+
+---
+
+## What Would Change My Mind?
+
+
+1. Information about the founding team and their technical expertise.
+
+1. Evidence of a recent product launch or additional traction signals.
+
+1. Details on how the product specifically addresses SMB needs.
+
+
+---
 
 ## Sources
 
 - [Source listing](https://news.ycombinator.com/item?id=47048981)
 
+- https://github.com/M2Dr3g0n/kremis
 
 
+
+- https://news.ycombinator.com/item?id=47023918

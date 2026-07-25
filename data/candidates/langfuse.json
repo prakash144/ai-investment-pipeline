@@ -3,12 +3,17 @@
   "name": "Langfuse",
   "website": "https://langfuse.com",
   "description": "Open-source observability and evaluation platform for LLM applications",
-  "founders": null,
+  "founders": "Maximilian Deichmann (Founder Max built trading systems at European 5bn Fintech, Trade Republic. He knows the ins and outs of building reliable, scalable systems to handle our customers\u2019 most critical business processes.)",
   "traction_signal": {
     "type": "yc_batch",
     "detail": "YC W25",
     "source_url": "https://www.ycombinator.com/companies?batch=W25"
   },
   "source": "yc",
-  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  "source_url": "https://www.ycombinator.com/companies?batch=W25",
+  "extra": {
+    "founded": "2022",
+    "batch": "Winter 2023",
+    "team_size": "19"
+  }
 }

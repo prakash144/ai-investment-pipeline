@@ -3,12 +3,16 @@
   "name": "Kraftful",
   "website": "https://kraftful.com",
   "description": "AI-powered product research assistant that analyzes user feedback",
-  "founders": null,
+  "founders": "Yana Welinder (Founder & CEOFounder & CEO of Kraftful (acquired by Amplitude))",
   "traction_signal": {
     "type": "yc_batch",
     "detail": "YC W25",
     "source_url": "https://www.ycombinator.com/companies?batch=W25"
   },
   "source": "yc",
-  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  "source_url": "https://www.ycombinator.com/companies?batch=W25",
+  "extra": {
+    "batch": "Summer 2019",
+    "team_size": "6"
+  }
 }

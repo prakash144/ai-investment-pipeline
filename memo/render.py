@@ -1,3 +1,4 @@
+from datetime import date
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
@@ -10,4 +11,8 @@ _env = Environment(loader=FileSystemLoader(str(_TEMPLATE_DIR)))
 
 def render_memo(candidate: dict, analysis: Analysis) -> str:
     template = _env.get_template("template.md")
-    return template.render(candidate=candidate, analysis=analysis)
+    return template.render(
+        candidate=candidate,
+        analysis=analysis,
+        date_generated=date.today().isoformat(),
+    )

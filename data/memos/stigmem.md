@@ -1,60 +1,103 @@
-# Stigmem
+# Investment Memo: Stigmem
+
+**Website:** N/A
+**Sector:** AI / Developer Tools
+**Date Generated:** 2026-07-25
+
+---
+
+## Executive Summary
+
+Stigmem is an open-source federated knowledge fabric designed for AI agents, recently showcased on Hacker News. The product aims to facilitate agentic workflows, making it relevant for small to medium-sized businesses (SMBs). However, there is no available information on the founding team, which raises concerns about their technical expertise. The traction signal from Hacker News indicates some interest, but further evidence of market engagement is needed.
+
+## Investment Recommendation
+
+**Watch**
+
+**Confidence:** Medium
+**Investment Score:** 50 / 100
+
+| Dimension | Score |
+|-----------|-------|
+| Team | 5 |
+| Product Fit | 20 |
+| Traction | 10 |
+| Risk (inverse) | 15 |
+
+---
+
+## Company Snapshot
 
 
+- **Source:** hn
+- **Source URL:** https://news.ycombinator.com/item?id=48002447
+
+**Description:** Show HN: Stigmem – open-source federated knowledge fabric for AI agents (v1.0)
+
+**Founders:** Not available from sourced data
+
+---
+
+## Product
+
+An open-source federated knowledge fabric for AI agents.
 
 ---
 
 ## Team
 
-No founder information was found for this company, which raises concerns about the technical expertise and experience necessary to drive the startup's vision.
+Not available from sourced data.
 
-## Product
-
-Stigmem is an open-source federated knowledge fabric designed for AI agents, allowing them to share and utilize knowledge across different systems.
+---
 
 ## Market
 
-The market for AI tools targeting SMBs is growing rapidly, with increasing demand for accessible and efficient solutions. However, the competitive landscape is crowded with various players offering similar functionalities.
+Targets small to medium-sized businesses (SMBs) with a focus on AI agent workflows.
 
-## Risks
+---
 
+## Traction Signals
 
-- Lack of founder information raises concerns about team capability.
-
-- Open-source nature may lead to monetization challenges.
-
-- Crowded market with many existing solutions.
+Hacker News activity with 3 points and 0 comments.
 
 
-## Score
-
-**40 / 100**
-
-| Dimension | Score |
-|-----------|-------|
-| Team | 0 |
-| Product Fit | 60 |
-| Traction | 50 |
-| Risk (inverse) | 30 |
-
-## Call
-
-**Pass**
-
-## Change my mind
+_From sourced data: hacker_news — 3 points, 0 comments_
 
 
-- Provide information about a technically strong founder with relevant experience.
+---
 
-- Demonstrate a clear and compelling use case for SMBs.
-
-- Show significant traction or funding signals beyond HN activity.
+## Risks & Open Questions
 
 
+- No information on the founding team or their technical expertise.
+
+- Limited traction evidence beyond Hacker News activity.
+
+- Lack of a website may hinder visibility and credibility.
+
+
+---
+
+## Thesis Alignment
+
+Stigmem fits the thesis by targeting SMBs with an AI-focused product, but the absence of founder information and limited traction signals raises concerns.
+
+---
+
+## What Would Change My Mind?
+
+
+1. Information about the founding team and their technical background.
+
+1. Evidence of additional traction or user engagement beyond Hacker News.
+
+1. A professional website to enhance credibility and visibility.
+
+
+---
 
 ## Sources
 
 - [Source listing](https://news.ycombinator.com/item?id=48002447)
-
 
 

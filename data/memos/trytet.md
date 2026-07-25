@@ -1,60 +1,105 @@
-# Trytet
+# Investment Memo: Trytet
 
-_Website: https://trytet.com_
+**Website:** https://trytet.com
+**Sector:** AI / Developer Tools
+**Date Generated:** 2026-07-25
+
+---
+
+## Executive Summary
+
+Trytet is a startup focused on developing a deterministic WASM substrate for stateful AI agents. The product targets small and medium-sized businesses (SMBs) by providing a clear use case for AI integration. However, there is no available information on the founders, which raises concerns about the team's expertise. The startup has gained some traction on Hacker News, indicating interest in the product. Overall, while there are promising aspects, the lack of founder information is a significant gap.
+
+## Investment Recommendation
+
+**Watch**
+
+**Confidence:** Medium
+**Investment Score:** 50 / 100
+
+| Dimension | Score |
+|-----------|-------|
+| Team | 5 |
+| Product Fit | 20 |
+| Traction | 10 |
+| Risk (inverse) | 15 |
+
+---
+
+## Company Snapshot
+
+
+- **Source:** hn
+- **Source URL:** https://news.ycombinator.com/item?id=47621756
+
+**Description:** Show HN: Trytet – Deterministic WASM substrate for stateful AI agents
+
+**Founders:** Not available from sourced data
+
+---
+
+## Product
+
+A deterministic WASM substrate designed for stateful AI agents.
 
 ---
 
 ## Team
 
-No founder information was found for this company, which raises concerns about the technical expertise and experience necessary for success.
+Not available from sourced data.
 
-## Product
-
-Trytet provides a deterministic WASM substrate designed for building stateful AI agents, targeting small and medium-sized businesses.
+---
 
 ## Market
 
-The market for AI tooling is rapidly growing, especially among SMBs looking to leverage AI for operational efficiency. However, the competitive landscape includes various established players in the AI space.
+Targets small and medium-sized businesses (SMBs) with AI integration solutions.
 
-## Risks
+---
 
+## Traction Signals
 
-- Lack of founder information raises concerns about team capability.
-
-- The market for AI tooling is becoming increasingly crowded.
-
-- Unclear differentiation from existing solutions.
+Gained 3 points on Hacker News with no comments, indicating some level of interest.
 
 
-## Score
-
-**40 / 100**
-
-| Dimension | Score |
-|-----------|-------|
-| Team | 0 |
-| Product Fit | 60 |
-| Traction | 30 |
-| Risk (inverse) | 50 |
-
-## Call
-
-**Pass**
-
-## Change my mind
+_From sourced data: hacker_news — 3 points, 0 comments_
 
 
-- Provide detailed information about the founders and their relevant experience.
+---
 
-- Demonstrate clear traction beyond HN activity, such as customer testimonials or partnerships.
-
-- Clarify the unique value proposition and competitive advantage in the market.
+## Risks & Open Questions
 
 
+- No information on the founders raises concerns about team expertise.
+
+- Limited traction signals with only Hacker News activity and no comments.
+
+- Lack of clarity on the product's specific applications for SMBs.
+
+
+---
+
+## Thesis Alignment
+
+The product fits the thesis of targeting SMBs with AI solutions, but the absence of founder information and limited traction signals are significant drawbacks.
+
+---
+
+## What Would Change My Mind?
+
+
+1. Provide information on the founders and their relevant experience.
+
+1. Demonstrate clearer traction signals beyond Hacker News.
+
+1. Clarify the specific use cases for SMBs to enhance product fit.
+
+
+---
 
 ## Sources
 
 - [Source listing](https://news.ycombinator.com/item?id=47621756)
 
+- https://trytet.com
 
 

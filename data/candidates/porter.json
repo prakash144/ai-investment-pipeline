@@ -10,5 +10,10 @@
     "source_url": "https://www.ycombinator.com/companies?batch=W25"
   },
   "source": "yc",
-  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  "source_url": "https://www.ycombinator.com/companies?batch=W25",
+  "extra": {
+    "founded": "2020",
+    "batch": "Summer 2020",
+    "team_size": "18"
+  }
 }

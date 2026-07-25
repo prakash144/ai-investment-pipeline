@@ -1,26 +1,30 @@
 {
-  "team": "No founder information was found for this company, which raises concerns about the technical expertise and experience necessary to execute the vision.",
-  "product": "Sieve is a Video AI platform that allows developers to build and deploy video applications, targeting a range of use cases in the SMB sector.",
-  "market": "The video application market is growing rapidly, driven by increased demand for video content across various platforms. However, competition is fierce with established players in the space.",
+  "executive_summary": "Sieve is a video AI platform designed for developers to create and deploy video applications. Founded in 2022 and part of Y Combinator's Winter 2022 batch, the company is led by Mokshith Voodarla, who has a strong background in computer vision from his work at Scale AI, NVIDIA, and Ford. With a team of 18, Sieve is positioned to serve the SMB market effectively. The company has visible traction through its participation in Y Combinator.",
+  "team": "Mokshith Voodarla is the co-founder and CEO of Sieve, with relevant experience in computer vision from Scale AI, NVIDIA, and Ford, indicating strong technical expertise.",
+  "product": "Sieve provides a video AI platform that enables developers to build and deploy video applications.",
+  "market": "The product targets developers in the SMB sector, focusing on video application development.",
+  "traction_signals": "Sieve is part of Y Combinator's Winter 2022 batch, indicating recent traction.",
   "risks": [
-    "Lack of founder information raises concerns about team capability.",
-    "Highly competitive market with established players.",
-    "Unclear differentiation or unique value proposition."
+    "Limited information on customer acquisition strategy and market demand.",
+    "No specific traction metrics or funding signals beyond Y Combinator participation."
   ],
-  "score": 45,
+  "thesis_alignment": "Sieve fits the investment thesis as it has a technically strong founder and is targeting the SMB market, but lacks detailed traction signals.",
+  "score": 65,
   "score_breakdown": {
-    "team": 10,
-    "product_fit": 60,
-    "traction": 70,
-    "risk": 30
+    "team": 20,
+    "product_fit": 20,
+    "traction": 15,
+    "risk": 10
   },
-  "recommendation": "Pass",
+  "confidence": "Medium",
+  "recommendation": "Watch",
   "change_my_mind": [
-    "Provide detailed founder backgrounds showcasing technical expertise and relevant experience.",
-    "Demonstrate a clear differentiation strategy against competitors.",
-    "Showcase significant traction or customer acquisition in the SMB sector."
+    "Evidence of customer traction or early adopters in the SMB market.",
+    "Details on a clear go-to-market strategy.",
+    "Additional funding signals or partnerships."
   ],
   "sources": [
+    "https://sievedata.com",
     "https://www.ycombinator.com/companies?batch=W25"
   ]
 }

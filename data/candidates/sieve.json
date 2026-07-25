@@ -3,12 +3,17 @@
   "name": "Sieve",
   "website": "https://sievedata.com",
   "description": "Video AI platform for developers to build and deploy video applications",
-  "founders": null,
+  "founders": "Mokshith Voodarla (Founder Mokshith is co-founder and CEO of Sieve. Mokshith used to work on computer-vision problems at Scale AI, NVIDIA, and Ford where he experienced first-hand, the difficulties of building and scaling vision-based analytics systems.)",
   "traction_signal": {
     "type": "yc_batch",
     "detail": "YC W25",
     "source_url": "https://www.ycombinator.com/companies?batch=W25"
   },
   "source": "yc",
-  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  "source_url": "https://www.ycombinator.com/companies?batch=W25",
+  "extra": {
+    "founded": "2022",
+    "batch": "Winter 2022",
+    "team_size": "18"
+  }
 }

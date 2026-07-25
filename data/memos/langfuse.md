@@ -1,60 +1,109 @@
-# Langfuse
+# Investment Memo: Langfuse
 
-_Website: https://langfuse.com_
+**Website:** https://langfuse.com
+**Sector:** AI / Developer Tools
+**Date Generated:** 2026-07-25
+
+---
+
+## Executive Summary
+
+Langfuse is an open-source observability and evaluation platform designed for LLM applications, targeting small and medium-sized businesses (SMBs). Founded by Maximilian Deichmann, who has a strong technical background in building scalable systems, the company is part of the Y Combinator Winter 2023 batch. With a growing team of 19, Langfuse is positioned to address critical business processes for its customers. The company shows promise with its recent traction from Y Combinator.
+
+## Investment Recommendation
+
+**Watch**
+
+**Confidence:** Medium
+**Investment Score:** 68 / 100
+
+| Dimension | Score |
+|-----------|-------|
+| Team | 20 |
+| Product Fit | 20 |
+| Traction | 15 |
+| Risk (inverse) | 13 |
+
+---
+
+## Company Snapshot
+
+
+- **Founded:** 2022
+- **YC Batch:** Winter 2023
+- **Team Size:** 19
+
+- **Source:** yc
+- **Source URL:** https://www.ycombinator.com/companies?batch=W25
+
+**Description:** Open-source observability and evaluation platform for LLM applications
+
+**Founders:** Maximilian Deichmann (Founder Max built trading systems at European 5bn Fintech, Trade Republic. He knows the ins and outs of building reliable, scalable systems to handle our customers’ most critical business processes.)
+
+---
+
+## Product
+
+Langfuse provides an open-source platform for observing and evaluating large language model (LLM) applications.
 
 ---
 
 ## Team
 
-No founder information was found for this company, which raises concerns about the technical expertise and experience necessary to lead an AI-focused startup.
+Maximilian Deichmann has experience building trading systems at Trade Republic, a significant European fintech, indicating strong technical expertise in developing reliable and scalable systems.
 
-## Product
-
-Langfuse is an open-source platform designed to help businesses observe and evaluate their large language model (LLM) applications, making it easier for them to understand and improve their AI tools.
+---
 
 ## Market
 
-The market for AI tools, particularly those targeting small and medium-sized businesses (SMBs), is rapidly growing as more companies look to integrate AI into their operations. However, the competitive landscape is crowded with various players offering similar solutions.
+The product targets small and medium-sized businesses (SMBs) looking for solutions in LLM application observability.
 
-## Risks
+---
 
+## Traction Signals
 
-- Lack of founder information raises concerns about team capability.
-
-- The crowded market for AI tools may make differentiation challenging.
-
-- Open-source model may lead to monetization challenges.
+Langfuse is part of the Y Combinator Winter 2023 batch, indicating recent traction.
 
 
-## Score
-
-**45 / 100**
-
-| Dimension | Score |
-|-----------|-------|
-| Team | 0 |
-| Product Fit | 60 |
-| Traction | 70 |
-| Risk (inverse) | 40 |
-
-## Call
-
-**Pass**
-
-## Change my mind
+_From sourced data: yc_batch — YC W25_
 
 
-- Provide detailed information about the founders and their relevant experience.
+---
 
-- Demonstrate clear traction with SMBs or a strong customer base.
-
-- Show a unique value proposition that differentiates Langfuse from competitors.
+## Risks & Open Questions
 
 
+- Limited information on customer adoption or engagement metrics.
+
+- Dependence on the open-source model may affect revenue generation.
+
+- Market competition in the LLM observability space is not detailed.
+
+
+---
+
+## Thesis Alignment
+
+Langfuse fits the investment thesis as it has a technically strong founder and is targeting SMBs with a relevant product. The traction from Y Combinator adds credibility, although more specific traction metrics would strengthen the case.
+
+---
+
+## What Would Change My Mind?
+
+
+1. Evidence of customer adoption or engagement metrics.
+
+1. Details on revenue generation strategies.
+
+1. More information on competitive landscape and differentiation.
+
+
+---
 
 ## Sources
 
 - [Source listing](https://www.ycombinator.com/companies?batch=W25)
 
+- https://langfuse.com
 
 

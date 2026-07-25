@@ -1,5 +1,6 @@
 import json
 import os
+import threading
 from pathlib import Path
 
 from openai import OpenAI
@@ -12,52 +13,87 @@ class NoApiKeyError(Exception):
     pass
 
 
-ANALYSIS_SYSTEM_PROMPT = """You are a VC investment analyst evaluating early-stage startups.
-Given a candidate company and an investment thesis, produce a structured analysis.
+ANALYSIS_SYSTEM_PROMPT = """You are a VC investment analyst evaluating early-stage startups. Your analysis must be grounded entirely in the provided candidate data.
 
-Score each dimension (0-100 scale) and provide a weighted final score.
+## ANTI-HALLUCINATION RULES (these are mandatory)
 
-Thesis-based scoring weights:
+1. ONLY use information explicitly present in the candidate data below.
+2. Do NOT invent or assume founder names, market sizes, competitor names, traction numbers, GitHub stars, funding amounts, or any other facts not present in the provided data.
+3. If a data point is marked as unavailable or absent, state "Not available from sourced data" — never fabricate it.
+4. When scoring a dimension with incomplete data, score conservatively based on available signals. Do NOT default to zero — use partial credit where the available info is promising.
+5. Every claim in your analysis must be traceable to a specific field in the candidate data. Include source URLs where applicable.
+
+## Investment Thesis Weights
+
 - Team (30): technical founder, prior relevant exit/experience, research background
 - Product fit for SMB (25): clear SMB buyer, plain-language use case
 - Traction (25): HN activity, recent launch, funding signal in last 12-18mo
 - Risk (20, inverse score): fewer risks = higher score
 
-Recommendation:
-- "Take a meeting" = strong on Team + Traction, clearly in-thesis
-- "Watch" = in-thesis but missing one key signal
-- "Pass" = out of thesis or disqualifying risk
+## Scoring Guidance for Missing Data
+
+- If founder info is absent but the product/description suggests domain expertise: score Team 10-15 (not zero), note the gap
+- If traction data is absent: score Traction 5-10 (not zero), note the gap
+- Low confidence when multiple key data points are missing
+- High confidence when most data is available, consistent, and verifiable
+
+## Recommendation
+
+- "Take a meeting" = strong on Team + Traction, clearly in-thesis. Score typically 70+
+- "Watch" = in-thesis but missing one key signal. Score typically 45-69
+- "Pass" = out of thesis or disqualifying risk. Score typically below 45
 
 Return valid JSON only with these fields:
-- team (str): founder background assessment
-- product (str): what they build in plain language
-- market (str): market size, growth, timing, competitors
-- risks (list[str]): 2-4 key risks
-- score (int): 0-100 weighted score
-- score_breakdown (dict): keys team, product_fit, traction, risk (int values)
+- executive_summary (str): 5-6 line summary covering company, product, market, team, and call
+- team (str): founder background assessment — only what's in the data
+- product (str): what they build in plain language — no marketing fluff
+- market (str): market assessment — only cite competitors/markets if mentioned in data
+- traction_signals (str): all traction evidence found in the data
+- risks (list[str]): 2-4 key risks grounded in available data
+- thesis_alignment (str): why this company fits or doesn't fit the stated thesis
+- score (int): 0-100 weighted final score
+- score_breakdown (dict): keys team, product_fit, traction, risk (0-100 each)
+- confidence (str): "High", "Medium", or "Low"
 - recommendation (str): "Pass", "Watch", or "Take a meeting"
-- change_my_mind (list[str]): 2-3 things that would change the call
+- change_my_mind (list[str]): 2-3 specific things that would change the call
 - sources (list[str]): URLs referenced in your analysis"""
 
 
 def build_prompt(candidate: dict, thesis: str) -> str:
     sections = [f"# Investment Thesis\n\n{thesis}\n"]
-    sections.append("# Candidate\n")
+    sections.append("# Candidate Data\n")
 
-    for field in ["name", "website", "description", "founders", "traction_signal"]:
-        value = candidate.get(field)
-        if value is None:
-            if field == "founders":
-                sections.append("- founders: No founder information was found for this company")
-            elif field == "traction_signal":
-                sections.append("- traction_signal: No traction signal was found for this company")
-            else:
-                sections.append(f"- {field}: Not available")
-        else:
-            sections.append(f"- {field}: {value}")
+    sections.append(f"**Name:** {candidate.get('name', 'Unknown')}")
+    sections.append(f"**Website:** {candidate.get('website', 'Not available')}")
+    sections.append(f"**Description:** {candidate.get('description', 'Not available')}")
+    sections.append(f"**Source:** {candidate.get('source', 'Unknown')}")
+    sections.append(f"**Source URL:** {candidate.get('source_url', 'Not available')}")
 
-    sections.append(f"\n# Source\n{candidate.get('source_url', 'Not available')}")
+    founders = candidate.get("founders")
+    if founders:
+        sections.append(f"**Founders:** {founders}")
+    else:
+        sections.append("**Founders:** NOT AVAILABLE — no founder information was found from sourced data")
+
+    traction = candidate.get("traction_signal")
+    if traction:
+        sections.append(f"**Traction Signal:** {traction.get('type', '')} — {traction.get('detail', '')}")
+        sections.append(f"**Traction Source:** {traction.get('source_url', 'Not available')}")
+    else:
+        sections.append("**Traction Signal:** NOT AVAILABLE — no traction signal was found from sourced data")
+
+    extra = candidate.get("extra")
+    if extra:
+        sections.append("\n**Enriched Data:**")
+        if isinstance(extra, dict):
+            for key, value in extra.items():
+                if value:
+                    sections.append(f"- {key}: {value}")
+
     return "\n".join(sections)
+
+
+_log_lock = threading.Lock()
 
 
 def log_prompt_call(candidate_slug: str, prompt: str, response_text: str, model: str, input_tokens: int, output_tokens: int, cost_usd: float):
@@ -72,8 +108,9 @@ def log_prompt_call(candidate_slug: str, prompt: str, response_text: str, model:
         "output_tokens": output_tokens,
         "cost_usd": round(cost_usd, 6),
     }
-    with open(log_path, "a") as f:
-        f.write(json.dumps(entry) + "\n")
+    with _log_lock:
+        with open(log_path, "a") as f:
+            f.write(json.dumps(entry) + "\n")
 
 
 def get_or_analyze(candidate: dict, thesis: str, cache_dir: Path = Path("data/analysis"), llm_client=None) -> Analysis:

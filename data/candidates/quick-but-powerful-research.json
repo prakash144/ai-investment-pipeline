@@ -1,6 +1,6 @@
 {
-  "slug": "quick-but-powerful-research-for-ai-agents-with-data-scrapping-and-selenium",
-  "name": "Quick but powerful research for AI agents with data scrapping and selenium",
+  "slug": "quick-but-powerful-research",
+  "name": "Quick but powerful research...",
   "website": null,
   "description": "Quick but powerful research for AI agents with data scrapping and selenium",
   "founders": null,
@@ -10,5 +10,6 @@
     "source_url": "https://news.ycombinator.com/item?id=42995416"
   },
   "source": "hn",
-  "source_url": "https://news.ycombinator.com/item?id=42995416"
+  "source_url": "https://news.ycombinator.com/item?id=42995416",
+  "extra": null
 }

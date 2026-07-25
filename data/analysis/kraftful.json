@@ -1,26 +1,30 @@
 {
-  "team": "No founder information was found for this company, which raises concerns about the technical expertise and experience of the team.",
-  "product": "Kraftful is an AI-powered product research assistant that analyzes user feedback, helping SMBs understand their customers better.",
-  "market": "The market for AI-driven tools for SMBs is growing rapidly as businesses increasingly seek data-driven insights. Competitors may include other AI research tools, but Kraftful's focus on user feedback analysis could provide a unique angle.",
+  "executive_summary": "Kraftful is an AI-powered product research assistant that helps analyze user feedback, targeting small and medium-sized businesses (SMBs). Founded by Yana Welinder, who has a strong technical background and prior successful exit with Amplitude, Kraftful is positioned well in the SMB market. The company is part of Y Combinator's W25 batch, indicating recent traction. Overall, Kraftful shows promise for further engagement.",
+  "team": "Yana Welinder is the Founder & CEO of Kraftful and has a strong technical background, having previously founded a company that was acquired by Amplitude.",
+  "product": "Kraftful builds an AI-powered product research assistant that analyzes user feedback.",
+  "market": "Kraftful targets small and medium-sized businesses (SMBs) with its product research tool.",
+  "traction_signals": "Kraftful is part of Y Combinator's W25 batch, indicating recent traction.",
   "risks": [
-    "Lack of transparency regarding the founding team and their backgrounds",
-    "Potential competition from established players in the AI research space",
-    "Unclear differentiation from other AI tools targeting similar use cases"
+    "Limited information on current traction beyond Y Combinator batch.",
+    "No recent funding signals or specific user metrics provided."
   ],
-  "score": 45,
+  "thesis_alignment": "Kraftful fits the investment thesis as it has a technically strong founder and targets SMBs with a relevant product. However, it lacks detailed traction signals beyond its Y Combinator participation.",
+  "score": 65,
   "score_breakdown": {
-    "team": 0,
-    "product_fit": 60,
-    "traction": 75,
-    "risk": 40
+    "team": 20,
+    "product_fit": 20,
+    "traction": 15,
+    "risk": 10
   },
-  "recommendation": "Pass",
+  "confidence": "Medium",
+  "recommendation": "Watch",
   "change_my_mind": [
-    "Provide detailed information about the founding team and their relevant experience",
-    "Demonstrate clear traction with SMBs through case studies or testimonials",
-    "Show a unique value proposition that differentiates Kraftful from competitors"
+    "Evidence of recent user growth or engagement metrics.",
+    "Details on any funding raised in the last 12-18 months.",
+    "More information on the competitive landscape and differentiation."
   ],
   "sources": [
+    "https://kraftful.com",
     "https://www.ycombinator.com/companies?batch=W25"
   ]
 }

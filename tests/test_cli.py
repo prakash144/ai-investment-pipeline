@@ -8,7 +8,7 @@ from analysis.analyze import NoApiKeyError
 
 
 def _mock_analysis():
-    return Analysis(team="Team", product="Product", market="Market", risks=["Risk"], score=60, score_breakdown={"team": 15, "product_fit": 15, "traction": 15, "risk": 15}, recommendation="Watch", change_my_mind=["X"], sources=["https://example.com"])
+    return Analysis(executive_summary="Summary", team="Team", product="Product", market="Market", traction_signals="None", risks=["Risk"], thesis_alignment="Fits", score=60, score_breakdown={"team": 15, "product_fit": 15, "traction": 15, "risk": 15}, confidence="Medium", recommendation="Watch", change_my_mind=["X"], sources=["https://example.com"])
 
 
 class TestCliMain:
@@ -17,7 +17,7 @@ class TestCliMain:
         (tmp_path / "data/candidates").mkdir(parents=True)
         (tmp_path / "data/analysis").mkdir(parents=True)
         (tmp_path / "data/memos").mkdir(parents=True)
-        monkeypatch.setattr("sys.argv", ["cli.py", "--topic", "AI agents", "--limit", "5"])
+        monkeypatch.setattr("sys.argv", ["cli.py", "--topic", "AI agents", "--limit", "5", "--no-enrich"])
 
         monkeypatch.setattr("cli.fetch_hn_candidates", lambda query, limit: [{"title": f"Startup {i}", "url": None, "points": 10, "num_comments": 2, "created_at": "", "objectID": str(i), "source": "hn"} for i in range(3)])
         monkeypatch.setattr("cli.fetch_yc_candidates", lambda batch, limit: [{"name": f"YC Co {i}", "website": None, "description": "AI startup", "batch": "W25", "source": "yc"} for i in range(2)])
@@ -38,7 +38,7 @@ class TestCliMain:
         (tmp_path / "data/candidates").mkdir(parents=True)
         (tmp_path / "data/analysis").mkdir(parents=True)
         (tmp_path / "data/memos").mkdir(parents=True)
-        monkeypatch.setattr("sys.argv", ["cli.py", "--topic", "AI agents", "--limit", "3"])
+        monkeypatch.setattr("sys.argv", ["cli.py", "--topic", "AI agents", "--limit", "3", "--no-enrich"])
 
         monkeypatch.setattr("cli.fetch_hn_candidates", lambda query, limit: [{"title": f"Startup {i}", "url": None, "points": 10, "num_comments": 2, "created_at": "", "objectID": str(i), "source": "hn"} for i in range(2)])
         monkeypatch.setattr("cli.fetch_yc_candidates", lambda batch, limit: [])

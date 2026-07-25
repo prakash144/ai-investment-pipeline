@@ -1,26 +1,30 @@
 {
-  "team": "No founder information was found for this company, which raises concerns about the technical expertise and experience of the team.",
-  "product": "Screenpipe offers AI-powered screen recording and analysis tools specifically designed for developers, helping them capture and analyze their workflows efficiently.",
-  "market": "The market for developer tools is substantial, with a growing demand for AI-driven solutions. However, competition is fierce with established players in the screen recording and analysis space.",
+  "executive_summary": "Screenpipe is an AI-powered screen recording and analysis tool designed specifically for developers. Founded by Louis Beaumont, who has a strong background including experience with the French CIA, the company is positioned to serve SMBs in the tech space. Currently in the Y Combinator W25 batch, Screenpipe shows promise with its innovative approach to enhancing developer workflows. Given the founder's technical expertise and the traction from being part of a reputable accelerator, this startup warrants further exploration.",
+  "team": "Louis Beaumont is the founder with a notable background, having previously worked with the French CIA. He has turned down opportunities with OpenAI, Cursor, and Mercor, indicating a strong technical foundation and discernment in choosing projects.",
+  "product": "Screenpipe offers AI-powered tools for screen recording and analysis, aimed at improving the workflow of developers.",
+  "market": "The product targets SMBs in the tech industry, specifically developers, but no direct competitors are mentioned in the data.",
+  "traction_signals": "Screenpipe is part of the Y Combinator W25 batch, indicating recent traction and validation.",
   "risks": [
-    "Lack of founder visibility raises concerns about team capability.",
-    "Potentially crowded market with established competitors.",
-    "Unclear differentiation from existing screen recording tools."
+    "The company was founded in 2024, which may indicate limited operational history.",
+    "No specific traction metrics or user engagement data are provided beyond being in the YC batch."
   ],
-  "score": 45,
+  "thesis_alignment": "Screenpipe aligns with the investment thesis as it targets SMBs with a technically strong founder and has visible traction through its participation in Y Combinator.",
+  "score": 68,
   "score_breakdown": {
-    "team": 10,
+    "team": 15,
     "product_fit": 20,
-    "traction": 25,
-    "risk": 10
+    "traction": 10,
+    "risk": 23
   },
-  "recommendation": "Pass",
+  "confidence": "Medium",
+  "recommendation": "Watch",
   "change_my_mind": [
-    "Provide detailed founder backgrounds showcasing technical expertise and relevant experience.",
-    "Demonstrate clear differentiation from competitors in the screen recording market.",
-    "Showcase significant traction metrics beyond YC batch participation."
+    "Provide specific user engagement metrics or early traction data.",
+    "Demonstrate a clear competitive advantage or differentiation in the market.",
+    "Share insights on the product's adoption rate or feedback from initial users."
   ],
   "sources": [
+    "https://screenpi.pe",
     "https://www.ycombinator.com/companies?batch=W25"
   ]
 }

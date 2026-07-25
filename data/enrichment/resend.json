@@ -1,0 +1,15 @@
+{
+  "founders": [
+    {
+      "name": "Zeno Rocha",
+      "title": "Founder & CEOFounder & CEO at Resend."
+    },
+    {
+      "name": "Bu Kinoshita",
+      "title": "Founder Co-founder & CTO at Resend and building react.email."
+    }
+  ],
+  "founded": "2023",
+  "batch": "Winter 2023",
+  "team_size": "45"
+}

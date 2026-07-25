@@ -24,7 +24,7 @@ class TestNormalizeCandidates:
                 "source": "yc",
             }
         ]
-        result = normalize_candidates(hn_raw, yc_raw)
+        result = normalize_candidates(hn_raw, yc_raw, enrich_yc=False)
         assert len(result) == 1
         assert result[0]["name"] == "Resend"
         assert result[0]["description"] == "Email API for developers to send transactional emails"
@@ -43,20 +43,20 @@ class TestNormalizeCandidates:
                 "source": "hn",
             }
         ]
-        result = normalize_candidates(hn_raw, [])
+        result = normalize_candidates(hn_raw, [], enrich_yc=False)
         assert result[0]["founders"] is None
 
     def test_output_length_never_exceeds_input_sum(self):
         hn_raw = [{"title": f"Item {i}", "url": None, "points": 1, "num_comments": 0, "created_at": "", "objectID": str(i), "source": "hn"} for i in range(5)]
         yc_raw = [{"name": f"Company {i}", "website": None, "description": "test", "batch": "W25", "source": "yc"} for i in range(3)]
-        result = normalize_candidates(hn_raw, yc_raw)
+        result = normalize_candidates(hn_raw, yc_raw, enrich_yc=False)
         assert len(result) <= len(hn_raw) + len(yc_raw)
 
     def test_all_output_dicts_have_required_keys(self):
         hn_raw = [{"title": "Test startup", "url": "https://example.com", "points": 5, "num_comments": 1, "created_at": "", "objectID": "1", "source": "hn"}]
         yc_raw = []
-        result = normalize_candidates(hn_raw, yc_raw)
-        required_keys = {"slug", "name", "website", "description", "founders", "traction_signal", "source", "source_url"}
+        result = normalize_candidates(hn_raw, yc_raw, enrich_yc=False)
+        required_keys = {"slug", "name", "website", "description", "founders", "traction_signal", "source", "source_url", "extra"}
         assert required_keys.issubset(result[0].keys())
 
     def test_handles_empty_inputs(self):

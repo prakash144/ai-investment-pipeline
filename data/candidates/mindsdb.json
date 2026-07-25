@@ -3,12 +3,17 @@
   "name": "MindsDB",
   "website": "https://mindsdb.com",
   "description": "Open-source platform for building AI-powered applications with databases",
-  "founders": null,
+  "founders": "Adam Carrigan (Founder Co-Founder @MindsDB \ud83d\ude80 @Forbes Most Promising AI Companies \ud83e\udd16 @Ycombinator (W20), ex-management consultant @Deloitte, @Cambridge_Uni grad)",
   "traction_signal": {
     "type": "yc_batch",
     "detail": "YC W25",
     "source_url": "https://www.ycombinator.com/companies?batch=W25"
   },
   "source": "yc",
-  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  "source_url": "https://www.ycombinator.com/companies?batch=W25",
+  "extra": {
+    "founded": "2017",
+    "batch": "Winter 2020",
+    "team_size": "41"
+  }
 }
