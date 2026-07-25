@@ -8,7 +8,7 @@
 > stated learning goal.
 >
 > **Portability note:** This plan is designed to be handed to any coding
-> agent (Claude Code, OpenCode, or otherwise) and executed task-by-task
+> agent (OpenCode, or otherwise) and executed task-by-task
 > independently of which tool wrote it — see the Git Workflow section below
 > for the exact repo/commit/push discipline every task must follow, and
 > `docs/PROCESS.md` for how per-task AI-drafted process notes get reviewed.
