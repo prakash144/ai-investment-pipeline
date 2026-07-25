@@ -54,6 +54,32 @@ def _write_json(directory: Path, slug: str, data: dict):
     (directory / f"{slug}.json").write_text(json.dumps(data, indent=2))
 
 
+def _print_summary(results: list[dict], stats: dict):
+    print()
+    print("=" * 62)
+    print("  PIPELINE SUMMARY")
+    print("=" * 62)
+    print(f"  Total candidates analyzed: {stats['total']}")
+    print(f"  Take a Meeting: {stats['take_a_meeting']}")
+    print(f"  Watch:          {stats['watch']}")
+    print(f"  Pass:           {stats['pass']}")
+    print()
+
+    strong = [r for r in results if r["recommendation"] in ("Take a meeting", "Watch")]
+    if strong:
+        print("  STRONG CANDIDATES:")
+        for r in sorted(strong, key=lambda x: (-x["score"], x["name"])):
+            short = _display_name(r["name"], 34)
+            print(f"    \U00002605 {short:34s} ({r['recommendation']:16s}) {r['score']}/100 \u2014 {MEMOS_DIR / r['slug']}.md")
+        print()
+
+    print("  ALL MEMOS:")
+    for r in sorted(results, key=lambda x: (-x["score"], x["name"])):
+        short = _display_name(r["name"], 34)
+        print(f"    {short:34s} ({r['recommendation']:16s}) {r['score']}/100 \u2014 {MEMOS_DIR / r['slug']}.md")
+    print("=" * 62)
+
+
 def _compute_stats(results: list[dict]) -> dict:
     scores = [r["score"] for r in results]
     counts = Counter(r["recommendation"] for r in results)
@@ -320,7 +346,7 @@ def main():
 
     if results:
         stats = _compute_stats(results)
-        print()
+        _print_summary(results, stats)
         _write_executive_summary(results, stats, args.topic, thesis)
         _write_pipeline_report(results, stats, args.topic, thesis)
     else:
