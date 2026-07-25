@@ -3,7 +3,7 @@
 ==============================================================
 
   Run ID
-    2026-07-25_12-49-28
+    2026-07-25_13-11-53
 
   Query
     AI agents for SMBs
@@ -23,11 +23,11 @@
     Successfully Analyzed       :  29
     Failed                      :  0
 
-    🟢  Take a Meeting              :  4
-    🟡  Watch                       :  21
-    🔴  Pass                        :  4
+    🟢  Take a Meeting              :  7
+    🟡  Watch                       :  20
+    🔴  Pass                        :  2
 
-    Average Score               :  57.4
+    Average Score               :  58.7
     Median Score                :  55
     Highest Score               :  75
     Lowest Score                :  45
@@ -39,15 +39,15 @@
     Score  Name
     -----  ----
      75   Bland AI
+     75   Langfuse
      75   Tempo Labs
+     70   Kraftful
+     70   MutableAI
      70   Resend
-     70   Reworkd
-     68   Langfuse
+     70   Sieve
+     68   Reworkd
      68   Screenpipe
-     65   Kraftful
-     65   MindsDB
-     65   MutableAI
-     65   Sieve
+     65   Dover
     ...
 
 --------------------------------------------------------------

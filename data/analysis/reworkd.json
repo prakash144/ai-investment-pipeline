@@ -1,27 +1,27 @@
 {
-  "executive_summary": "Reworkd is an AI agent platform designed to automate browser-based workflows, targeting small and medium-sized businesses (SMBs). Founded in 2023 by Srijan Subedi, who has a background in clinical research, the company is part of the Y Combinator W25 batch, indicating early traction. With a focus on simplifying workflow automation for SMBs, Reworkd shows promise in a growing market.",
-  "team": "Srijan Subedi is the founder of Reworkd AI, with a combined major in Science from UBC and experience as a Clinical Researcher at STEMCELL Technologies and Heart Lung Innovation.",
-  "product": "An AI agent platform that automates workflows performed in web browsers.",
-  "market": "The product targets small and medium-sized businesses (SMBs) looking for workflow automation solutions.",
-  "traction_signals": "Part of Y Combinator W25 batch, indicating early traction.",
+  "executive_summary": "Reworkd is an AI agent platform designed to automate browser-based workflows, targeting small and medium-sized businesses (SMBs). Founded in 2023 by Srijan Subedi, who has a background in clinical research, the company is part of the Y Combinator Summer 2023 batch, indicating early traction and validation. With a focus on simplifying workflows for SMBs, Reworkd shows promise in a growing market for AI-driven productivity tools.",
+  "team": "Srijan Subedi is the founder of Reworkd AI and has a combined major in Science from UBC. He has prior experience as a Clinical Researcher at STEMCELL Technologies and Heart Lung Innovation, suggesting a strong technical background.",
+  "product": "Reworkd builds an AI agent platform that automates workflows performed in web browsers, aimed at improving efficiency for users.",
+  "market": "The product targets small and medium-sized businesses (SMBs) looking for automation solutions to enhance productivity. No specific competitors are mentioned in the data.",
+  "traction_signals": "Reworkd is part of the Y Combinator Summer 2023 batch, indicating recent traction and validation.",
   "risks": [
-    "Limited team size (only 1 founder) may impact execution capacity.",
-    "As a newly founded company (2023), it may face challenges in market penetration."
+    "Limited team size (only 1 founder) may impact scalability and execution.",
+    "As a newly founded company (2023), there may be uncertainties regarding market fit and customer acquisition."
   ],
   "thesis_alignment": "Reworkd fits the investment thesis as it targets SMBs with a technically strong founder and has visible traction through its participation in Y Combinator.",
-  "score": 70,
+  "score": 68,
   "score_breakdown": {
     "team": 15,
     "product_fit": 20,
-    "traction": 25,
-    "risk": 10
+    "traction": 10,
+    "risk": 23
   },
   "confidence": "Medium",
-  "recommendation": "Take a meeting",
+  "recommendation": "Watch",
   "change_my_mind": [
     "Evidence of early customer adoption or feedback.",
-    "Additional team members with relevant experience.",
-    "Clearer differentiation from competitors in the workflow automation space."
+    "Additional team members with relevant experience to strengthen execution capability.",
+    "Clearer competitive landscape analysis or differentiation strategy."
   ],
   "sources": [
     "https://reworkd.ai",

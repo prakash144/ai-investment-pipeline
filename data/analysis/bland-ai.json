@@ -1,27 +1,27 @@
 {
-  "executive_summary": "Bland AI is a startup focused on automating customer interactions through AI phone call agents, specifically targeting small and medium-sized businesses (SMBs). Founded in 2023 and part of Y Combinator's Summer 2023 batch, the company is led by technically strong founders with relevant experience. With a growing team of 65, Bland AI is positioned to capture the SMB market with its innovative product. Given its recent traction and alignment with the investment thesis, a meeting is recommended.",
-  "team": "The founding team includes Isaiah Granet, who has experience in building conversational AI, and Sobhan Nejad, who has a background in developing enterprise platforms for AI phone calling. Their combined expertise suggests a strong technical foundation.",
-  "product": "Bland AI builds AI phone call agents that help businesses automate customer interactions, making it easier for SMBs to manage customer service.",
-  "market": "The product targets small and medium-sized businesses (SMBs) looking to enhance customer service through automation. No specific competitors are mentioned in the data.",
-  "traction_signals": "Bland AI is part of Y Combinator's Summer 2023 batch, indicating recent traction and validation.",
+  "executive_summary": "Bland AI is a startup focused on automating customer interactions through AI phone call agents, specifically targeting small and medium-sized businesses (SMBs). Founded in 2023 and part of Y Combinator's Summer 2023 batch, the company has a technically strong founding team. With a growing team size of 65, they are positioned to make an impact in the SMB market. Given their recent traction and alignment with the investment thesis, they warrant further exploration.",
+  "team": "The founding team includes Isaiah Granet, who has experience in building interactive technologies, and Sobhan Nejad, who has a background in developing AI phone calling platforms. Their combined expertise suggests a strong technical foundation.",
+  "product": "Bland AI builds AI phone call agents that help businesses automate their customer interactions, making it easier for SMBs to manage communications.",
+  "market": "The company targets the SMB market with its AI phone call agents, which is a growing area as businesses seek to enhance customer service through automation.",
+  "traction_signals": "Bland AI is part of Y Combinator's Summer 2023 batch, indicating recent traction and validation from a reputable accelerator.",
   "risks": [
-    "The company is newly founded in 2023, which may pose execution risks.",
-    "The market for AI phone agents is competitive and evolving, which could impact adoption."
+    "The company is newly founded in 2023, which may pose risks related to market entry and competition.",
+    "As a startup in a competitive AI space, they may face challenges in differentiating their product from existing solutions."
   ],
   "thesis_alignment": "Bland AI fits the investment thesis as it targets SMBs with a technically strong founding team and has visible traction through its participation in Y Combinator.",
   "score": 75,
   "score_breakdown": {
     "team": 20,
-    "product_fit": 20,
+    "product_fit": 25,
     "traction": 25,
-    "risk": 10
+    "risk": 5
   },
   "confidence": "Medium",
   "recommendation": "Take a meeting",
   "change_my_mind": [
     "Evidence of early customer adoption or feedback.",
-    "Details on the competitive landscape and differentiation.",
-    "Information on any funding raised or future funding plans."
+    "Details on the competitive landscape and how they differentiate from others.",
+    "Information on any funding raised or partnerships established since founding."
   ],
   "sources": [
     "https://bland.ai",

@@ -8,20 +8,20 @@
 
 ## Executive Summary
 
-Kraftful is an AI-powered product research assistant that helps analyze user feedback, targeting small and medium-sized businesses (SMBs). Founded by Yana Welinder, who has a strong technical background and prior successful exit with Amplitude, Kraftful is positioned well in the SMB market. The company is part of Y Combinator's W25 batch, indicating recent traction. Overall, Kraftful shows promise for further engagement.
+Kraftful is an AI-powered product research assistant that analyzes user feedback, targeting small and medium-sized businesses (SMBs). Founded by Yana Welinder, who has a strong technical background and prior experience with a successful exit, the company is positioned well in the SMB market. Kraftful is part of the Y Combinator W25 batch, indicating recent traction. Overall, the company shows promise in its niche.
 
 ## Investment Recommendation
 
-**Watch**
+**Take a meeting**
 
 **Confidence:** Medium
-**Investment Score:** 65 / 100
+**Investment Score:** 70 / 100
 
 | Dimension | Score |
 |-----------|-------|
-| Team | 20 |
+| Team | 30 |
 | Product Fit | 20 |
-| Traction | 15 |
+| Traction | 10 |
 | Risk (inverse) | 10 |
 
 ---
@@ -44,7 +44,7 @@ Kraftful is an AI-powered product research assistant that helps analyze user fee
 
 ## Product
 
-Kraftful builds an AI-powered product research assistant that analyzes user feedback.
+Kraftful builds an AI-powered product research assistant that helps analyze user feedback.
 
 ---
 
@@ -56,13 +56,13 @@ Yana Welinder is the Founder & CEO of Kraftful and has a strong technical backgr
 
 ## Market
 
-Kraftful targets small and medium-sized businesses (SMBs) with its product research tool.
+The product is aimed at small and medium-sized businesses (SMBs), but no specific competitors are mentioned in the data.
 
 ---
 
 ## Traction Signals
 
-Kraftful is part of Y Combinator's W25 batch, indicating recent traction.
+Kraftful is part of the Y Combinator W25 batch, indicating recent traction.
 
 
 _From sourced data: yc_batch — YC W25_
@@ -75,25 +75,25 @@ _From sourced data: yc_batch — YC W25_
 
 - Limited information on current traction beyond Y Combinator batch.
 
-- No recent funding signals or specific user metrics provided.
+- No recent funding signals or additional traction metrics provided.
 
 
 ---
 
 ## Thesis Alignment
 
-Kraftful fits the investment thesis as it has a technically strong founder and targets SMBs with a relevant product. However, it lacks detailed traction signals beyond its Y Combinator participation.
+Kraftful fits the investment thesis as it targets SMBs with a technically strong founder and has visible traction through its Y Combinator batch.
 
 ---
 
 ## What Would Change My Mind?
 
 
-1. Evidence of recent user growth or engagement metrics.
+1. Evidence of additional traction metrics or user growth.
 
-1. Details on any funding raised in the last 12-18 months.
+1. Recent funding rounds or partnerships.
 
-1. More information on the competitive landscape and differentiation.
+1. More detailed information on the competitive landscape.
 
 
 ---

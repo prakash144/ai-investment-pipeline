@@ -8,18 +8,18 @@
 
 ## Executive Summary
 
-Sieve is a video AI platform designed for developers to create and deploy video applications. Founded in 2022 and part of Y Combinator's Winter 2022 batch, the company is led by Mokshith Voodarla, who has a strong background in computer vision from his work at Scale AI, NVIDIA, and Ford. With a team of 18, Sieve is positioned to serve the SMB market effectively. The company has visible traction through its participation in Y Combinator.
+Sieve is a video AI platform designed for developers to create and deploy video applications. Founded in 2022 and part of Y Combinator's Winter 2022 batch, Sieve is led by Mokshith Voodarla, who has a strong background in computer vision from his work at Scale AI, NVIDIA, and Ford. The company is positioned to serve SMBs with its innovative technology. Given its recent traction through Y Combinator, Sieve shows promise in the AI space.
 
 ## Investment Recommendation
 
-**Watch**
+**Take a meeting**
 
 **Confidence:** Medium
-**Investment Score:** 65 / 100
+**Investment Score:** 70 / 100
 
 | Dimension | Score |
 |-----------|-------|
-| Team | 20 |
+| Team | 25 |
 | Product Fit | 20 |
 | Traction | 15 |
 | Risk (inverse) | 10 |
@@ -44,19 +44,19 @@ Sieve is a video AI platform designed for developers to create and deploy video 
 
 ## Product
 
-Sieve provides a video AI platform that enables developers to build and deploy video applications.
+Sieve provides a video AI platform that allows developers to build and deploy video applications.
 
 ---
 
 ## Team
 
-Mokshith Voodarla is the co-founder and CEO of Sieve, with relevant experience in computer vision from Scale AI, NVIDIA, and Ford, indicating strong technical expertise.
+Mokshith Voodarla is the co-founder and CEO of Sieve, with experience in computer vision from Scale AI, NVIDIA, and Ford, indicating a strong technical background relevant to the product.
 
 ---
 
 ## Market
 
-The product targets developers in the SMB sector, focusing on video application development.
+The product targets developers and SMBs looking for video application solutions. No specific competitors are mentioned in the data.
 
 ---
 
@@ -73,27 +73,27 @@ _From sourced data: yc_batch — YC W25_
 ## Risks & Open Questions
 
 
-- Limited information on customer acquisition strategy and market demand.
+- Limited information on customer adoption or market validation beyond Y Combinator.
 
-- No specific traction metrics or funding signals beyond Y Combinator participation.
+- The competitive landscape for video AI platforms is not detailed, which may indicate potential challenges.
 
 
 ---
 
 ## Thesis Alignment
 
-Sieve fits the investment thesis as it has a technically strong founder and is targeting the SMB market, but lacks detailed traction signals.
+Sieve fits the investment thesis as it has a technically strong founder and is targeting SMBs with a clear product offering. The traction from Y Combinator supports its potential.
 
 ---
 
 ## What Would Change My Mind?
 
 
-1. Evidence of customer traction or early adopters in the SMB market.
+1. Evidence of customer traction or partnerships beyond Y Combinator.
 
-1. Details on a clear go-to-market strategy.
+1. Details on the competitive landscape and how Sieve differentiates itself.
 
-1. Additional funding signals or partnerships.
+1. More information on the product's adoption rate among SMBs.
 
 
 ---

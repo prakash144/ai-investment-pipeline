@@ -8,21 +8,21 @@
 
 ## Executive Summary
 
-Reworkd is an AI agent platform designed to automate browser-based workflows, targeting small and medium-sized businesses (SMBs). Founded in 2023 by Srijan Subedi, who has a background in clinical research, the company is part of the Y Combinator W25 batch, indicating early traction. With a focus on simplifying workflow automation for SMBs, Reworkd shows promise in a growing market.
+Reworkd is an AI agent platform designed to automate browser-based workflows, targeting small and medium-sized businesses (SMBs). Founded in 2023 by Srijan Subedi, who has a background in clinical research, the company is part of the Y Combinator Summer 2023 batch, indicating early traction and validation. With a focus on simplifying workflows for SMBs, Reworkd shows promise in a growing market for AI-driven productivity tools.
 
 ## Investment Recommendation
 
-**Take a meeting**
+**Watch**
 
 **Confidence:** Medium
-**Investment Score:** 70 / 100
+**Investment Score:** 68 / 100
 
 | Dimension | Score |
 |-----------|-------|
 | Team | 15 |
 | Product Fit | 20 |
-| Traction | 25 |
-| Risk (inverse) | 10 |
+| Traction | 10 |
+| Risk (inverse) | 23 |
 
 ---
 
@@ -44,25 +44,25 @@ Reworkd is an AI agent platform designed to automate browser-based workflows, ta
 
 ## Product
 
-An AI agent platform that automates workflows performed in web browsers.
+Reworkd builds an AI agent platform that automates workflows performed in web browsers, aimed at improving efficiency for users.
 
 ---
 
 ## Team
 
-Srijan Subedi is the founder of Reworkd AI, with a combined major in Science from UBC and experience as a Clinical Researcher at STEMCELL Technologies and Heart Lung Innovation.
+Srijan Subedi is the founder of Reworkd AI and has a combined major in Science from UBC. He has prior experience as a Clinical Researcher at STEMCELL Technologies and Heart Lung Innovation, suggesting a strong technical background.
 
 ---
 
 ## Market
 
-The product targets small and medium-sized businesses (SMBs) looking for workflow automation solutions.
+The product targets small and medium-sized businesses (SMBs) looking for automation solutions to enhance productivity. No specific competitors are mentioned in the data.
 
 ---
 
 ## Traction Signals
 
-Part of Y Combinator W25 batch, indicating early traction.
+Reworkd is part of the Y Combinator Summer 2023 batch, indicating recent traction and validation.
 
 
 _From sourced data: yc_batch — YC W25_
@@ -73,9 +73,9 @@ _From sourced data: yc_batch — YC W25_
 ## Risks & Open Questions
 
 
-- Limited team size (only 1 founder) may impact execution capacity.
+- Limited team size (only 1 founder) may impact scalability and execution.
 
-- As a newly founded company (2023), it may face challenges in market penetration.
+- As a newly founded company (2023), there may be uncertainties regarding market fit and customer acquisition.
 
 
 ---
@@ -91,9 +91,9 @@ Reworkd fits the investment thesis as it targets SMBs with a technically strong 
 
 1. Evidence of early customer adoption or feedback.
 
-1. Additional team members with relevant experience.
+1. Additional team members with relevant experience to strengthen execution capability.
 
-1. Clearer differentiation from competitors in the workflow automation space.
+1. Clearer competitive landscape analysis or differentiation strategy.
 
 
 ---

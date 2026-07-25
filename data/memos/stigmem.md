@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-Stigmem is an open-source federated knowledge fabric designed for AI agents, recently showcased on Hacker News. The product aims to facilitate agentic workflows, making it relevant for small to medium-sized businesses (SMBs). However, there is no available information on the founding team, which raises concerns about their technical expertise. The traction signal from Hacker News indicates some interest, but further evidence of market engagement is needed.
+Stigmem is an open-source federated knowledge fabric designed for AI agents, recently showcased on Hacker News. While specific founder information is not available, the product appears to target SMBs with its focus on AI-driven workflows. The traction from Hacker News indicates some level of interest, but further details on the team and market fit are needed to fully assess its potential.
 
 ## Investment Recommendation
 
@@ -20,9 +20,9 @@ Stigmem is an open-source federated knowledge fabric designed for AI agents, rec
 | Dimension | Score |
 |-----------|-------|
 | Team | 5 |
-| Product Fit | 20 |
+| Product Fit | 15 |
 | Traction | 10 |
-| Risk (inverse) | 15 |
+| Risk (inverse) | 20 |
 
 ---
 
@@ -46,13 +46,13 @@ An open-source federated knowledge fabric for AI agents.
 
 ## Team
 
-Not available from sourced data.
+No founder information is available from sourced data.
 
 ---
 
 ## Market
 
-Targets small to medium-sized businesses (SMBs) with a focus on AI agent workflows.
+Not available from sourced data.
 
 ---
 
@@ -69,29 +69,27 @@ _From sourced data: hacker_news — 3 points, 0 comments_
 ## Risks & Open Questions
 
 
-- No information on the founding team or their technical expertise.
+- Lack of founder information raises concerns about team capability.
 
-- Limited traction evidence beyond Hacker News activity.
-
-- Lack of a website may hinder visibility and credibility.
+- No clear market assessment or competitor analysis provided.
 
 
 ---
 
 ## Thesis Alignment
 
-Stigmem fits the thesis by targeting SMBs with an AI-focused product, but the absence of founder information and limited traction signals raises concerns.
+Stigmem aligns with the thesis of targeting SMBs with AI tools, but the absence of founder details and market information limits confidence in its potential.
 
 ---
 
 ## What Would Change My Mind?
 
 
-1. Information about the founding team and their technical background.
+1. Provide information about the founders and their backgrounds.
 
-1. Evidence of additional traction or user engagement beyond Hacker News.
+1. Clarify the specific SMB use cases for the product.
 
-1. A professional website to enhance credibility and visibility.
+1. Share additional traction metrics or user feedback.
 
 
 ---

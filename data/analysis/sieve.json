@@ -1,27 +1,27 @@
 {
-  "executive_summary": "Sieve is a video AI platform designed for developers to create and deploy video applications. Founded in 2022 and part of Y Combinator's Winter 2022 batch, the company is led by Mokshith Voodarla, who has a strong background in computer vision from his work at Scale AI, NVIDIA, and Ford. With a team of 18, Sieve is positioned to serve the SMB market effectively. The company has visible traction through its participation in Y Combinator.",
-  "team": "Mokshith Voodarla is the co-founder and CEO of Sieve, with relevant experience in computer vision from Scale AI, NVIDIA, and Ford, indicating strong technical expertise.",
-  "product": "Sieve provides a video AI platform that enables developers to build and deploy video applications.",
-  "market": "The product targets developers in the SMB sector, focusing on video application development.",
+  "executive_summary": "Sieve is a video AI platform designed for developers to create and deploy video applications. Founded in 2022 and part of Y Combinator's Winter 2022 batch, Sieve is led by Mokshith Voodarla, who has a strong background in computer vision from his work at Scale AI, NVIDIA, and Ford. The company is positioned to serve SMBs with its innovative technology. Given its recent traction through Y Combinator, Sieve shows promise in the AI space.",
+  "team": "Mokshith Voodarla is the co-founder and CEO of Sieve, with experience in computer vision from Scale AI, NVIDIA, and Ford, indicating a strong technical background relevant to the product.",
+  "product": "Sieve provides a video AI platform that allows developers to build and deploy video applications.",
+  "market": "The product targets developers and SMBs looking for video application solutions. No specific competitors are mentioned in the data.",
   "traction_signals": "Sieve is part of Y Combinator's Winter 2022 batch, indicating recent traction.",
   "risks": [
-    "Limited information on customer acquisition strategy and market demand.",
-    "No specific traction metrics or funding signals beyond Y Combinator participation."
+    "Limited information on customer adoption or market validation beyond Y Combinator.",
+    "The competitive landscape for video AI platforms is not detailed, which may indicate potential challenges."
   ],
-  "thesis_alignment": "Sieve fits the investment thesis as it has a technically strong founder and is targeting the SMB market, but lacks detailed traction signals.",
-  "score": 65,
+  "thesis_alignment": "Sieve fits the investment thesis as it has a technically strong founder and is targeting SMBs with a clear product offering. The traction from Y Combinator supports its potential.",
+  "score": 70,
   "score_breakdown": {
-    "team": 20,
+    "team": 25,
     "product_fit": 20,
     "traction": 15,
     "risk": 10
   },
   "confidence": "Medium",
-  "recommendation": "Watch",
+  "recommendation": "Take a meeting",
   "change_my_mind": [
-    "Evidence of customer traction or early adopters in the SMB market.",
-    "Details on a clear go-to-market strategy.",
-    "Additional funding signals or partnerships."
+    "Evidence of customer traction or partnerships beyond Y Combinator.",
+    "Details on the competitive landscape and how Sieve differentiates itself.",
+    "More information on the product's adoption rate among SMBs."
   ],
   "sources": [
     "https://sievedata.com",

@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-rtrvr.ai is an AI web agent designed to automate workflows and extract data, targeting small and medium-sized businesses (SMBs). The product has gained traction on Hacker News, indicating interest and engagement from the tech community. However, there is no available information on the founders, which raises concerns about the team's expertise. Given the traction signals, this startup is worth monitoring.
+rtrvr.ai is an AI web agent designed to automate workflows and extract data, targeting small and medium-sized businesses (SMBs). The product has gained traction on Hacker News, indicating interest and engagement from the tech community. However, there is no available information on the founders, which raises concerns about the team's expertise. Given the traction signals, this startup is worth monitoring as it develops.
 
 ## Investment Recommendation
 
@@ -21,8 +21,8 @@ rtrvr.ai is an AI web agent designed to automate workflows and extract data, tar
 |-----------|-------|
 | Team | 5 |
 | Product Fit | 25 |
-| Traction | 10 |
-| Risk (inverse) | 15 |
+| Traction | 25 |
+| Risk (inverse) | 20 |
 
 ---
 
@@ -58,7 +58,7 @@ Targets small and medium-sized businesses (SMBs).
 
 ## Traction Signals
 
-Received 7 points and 4 comments on Hacker News, indicating interest.
+Received 7 points and 4 comments on Hacker News, indicating interest and engagement.
 
 
 _From sourced data: hacker_news — 7 points, 4 comments_
@@ -71,25 +71,25 @@ _From sourced data: hacker_news — 7 points, 4 comments_
 
 - No founder information available, raising concerns about team expertise.
 
-- Limited traction data beyond Hacker News, which may not reflect broader market acceptance.
+- Lack of detailed traction metrics beyond Hacker News activity.
 
 
 ---
 
 ## Thesis Alignment
 
-The product fits the thesis of targeting SMBs with AI tooling, but the lack of founder information and limited traction signals makes it less compelling.
+The product fits the thesis of targeting SMBs with AI-agent tooling, but the lack of founder information and limited traction data are significant gaps.
 
 ---
 
 ## What Would Change My Mind?
 
 
-1. Information about the founders and their expertise.
+1. Provide information about the founders and their relevant experience.
 
-1. Additional traction signals beyond Hacker News.
+1. Show additional traction metrics or customer feedback.
 
-1. Evidence of recent funding or partnerships.
+1. Demonstrate a clear go-to-market strategy or partnerships.
 
 
 ---

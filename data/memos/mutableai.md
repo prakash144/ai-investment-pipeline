@@ -8,18 +8,18 @@
 
 ## Executive Summary
 
-MutableAI is an AI-powered tool designed for codebase documentation and refactoring, targeting small and medium-sized businesses (SMBs). Founded by Omar Shams, a former DeepMind researcher, the company has a strong technical foundation. It participated in Y Combinator's Winter 2022 batch, indicating recent traction. The product aims to simplify code management for SMBs, making it a relevant solution in the growing AI tooling market.
+MutableAI is an AI-powered tool designed for codebase documentation and refactoring, targeting small and medium-sized businesses (SMBs). Founded by Omar Shams, a former DeepMind researcher, the company has a strong technical foundation. They participated in Y Combinator's Winter 2022 batch, indicating recent traction. Overall, MutableAI shows promise in the SMB market with its innovative product.
 
 ## Investment Recommendation
 
-**Watch**
+**Take a meeting**
 
 **Confidence:** Medium
-**Investment Score:** 65 / 100
+**Investment Score:** 70 / 100
 
 | Dimension | Score |
 |-----------|-------|
-| Team | 25 |
+| Team | 30 |
 | Product Fit | 20 |
 | Traction | 10 |
 | Risk (inverse) | 10 |
@@ -56,7 +56,7 @@ Omar Shams is the founder of MutableAI and has a strong technical background as 
 
 ## Market
 
-Targets small and medium-sized businesses (SMBs) with a focus on code management. No specific competitors mentioned.
+Targets small and medium-sized businesses (SMBs) with its documentation and refactoring tool.
 
 ---
 
@@ -73,27 +73,27 @@ _From sourced data: yc_batch — YC W25_
 ## Risks & Open Questions
 
 
-- Limited information on market adoption and customer feedback.
+- Limited information on customer adoption or usage metrics.
 
-- No specific funding signals or recent traction metrics beyond Y Combinator.
+- No recent funding signals or additional traction data beyond Y Combinator.
 
 
 ---
 
 ## Thesis Alignment
 
-MutableAI fits the investment thesis as it has a technically strong founder and targets SMBs with a relevant product. However, it lacks detailed traction signals beyond its Y Combinator participation.
+MutableAI fits the investment thesis as it targets SMBs with a technically strong founder and has visible traction through its Y Combinator participation.
 
 ---
 
 ## What Would Change My Mind?
 
 
-1. Evidence of customer traction or feedback from SMBs.
+1. Evidence of customer adoption or usage metrics.
 
-1. Recent funding rounds or partnerships that indicate growth.
+1. Recent funding rounds or additional traction signals.
 
-1. More detailed metrics on product usage or engagement.
+1. More details on the competitive landscape and differentiation.
 
 
 ---

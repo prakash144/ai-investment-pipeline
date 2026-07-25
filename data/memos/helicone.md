@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-Helicone is an observability platform designed for LLM applications, founded in 2023 and part of the Y Combinator Winter 2023 batch. While specific founder information is not available, the company has a small team of five, indicating potential technical capability. The product targets SMBs, aligning with the investment thesis. However, traction signals are limited to their participation in Y Combinator.
+Helicone is an observability platform designed for LLM applications, founded in 2023 and part of Y Combinator's Winter 2023 batch. While specific founder information is not available, the company has a small team of five, indicating potential technical capability. The product targets SMBs, aligning with the investment thesis, but lacks visible traction signals beyond its YC batch status.
 
 ## Investment Recommendation
 
@@ -56,13 +56,13 @@ No founder information is available from sourced data, which limits the assessme
 
 ## Market
 
-The product targets small and medium-sized businesses (SMBs) but does not mention specific competitors or market size.
+The product is aimed at small and medium-sized businesses (SMBs) but does not mention specific competitors or market details.
 
 ---
 
 ## Traction Signals
 
-Helicone is part of the Y Combinator Winter 2023 batch, indicating some level of traction and validation.
+The company is part of Y Combinator's Winter 2023 batch, indicating some level of traction.
 
 
 _From sourced data: yc_batch — YC W25_
@@ -75,16 +75,16 @@ _From sourced data: yc_batch — YC W25_
 
 - Lack of founder information raises concerns about team expertise.
 
-- Limited traction signals beyond Y Combinator participation.
+- Limited traction signals beyond being in a YC batch.
 
-- No clear evidence of market demand or customer validation.
+- No specific details on market competition or customer validation.
 
 
 ---
 
 ## Thesis Alignment
 
-Helicone fits the thesis by targeting SMBs and having a technically relevant product. However, the absence of founder information and limited traction signals are significant gaps.
+Helicone fits the investment thesis by targeting SMBs and having a technically relevant product. However, the absence of founder information and limited traction signals are significant gaps.
 
 ---
 
@@ -93,9 +93,9 @@ Helicone fits the thesis by targeting SMBs and having a technically relevant pro
 
 1. Provide detailed founder backgrounds to assess technical strength.
 
-1. Demonstrate customer traction or interest beyond Y Combinator.
+1. Demonstrate additional traction signals such as customer feedback or early adopters.
 
-1. Showcase specific use cases or testimonials from SMBs.
+1. Clarify the competitive landscape and how Helicone differentiates itself.
 
 
 ---

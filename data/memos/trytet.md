@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-Trytet is a startup focused on developing a deterministic WASM substrate for stateful AI agents. The product targets small and medium-sized businesses (SMBs) by providing a clear use case for AI integration. However, there is no available information on the founders, which raises concerns about the team's expertise. The startup has gained some traction on Hacker News, indicating interest in the product. Overall, while there are promising aspects, the lack of founder information is a significant gap.
+Trytet is a startup focused on developing a deterministic WASM substrate for stateful AI agents. The product appears to target small and medium-sized businesses (SMBs) by providing a technical solution that could enhance their operational workflows. However, there is no available information on the founders, which raises concerns about the team's expertise. The startup has gained some traction on Hacker News, indicating interest in the product. Overall, while there are promising aspects, the lack of founder information is a significant gap.
 
 ## Investment Recommendation
 
@@ -20,9 +20,9 @@ Trytet is a startup focused on developing a deterministic WASM substrate for sta
 | Dimension | Score |
 |-----------|-------|
 | Team | 5 |
-| Product Fit | 20 |
+| Product Fit | 15 |
 | Traction | 10 |
-| Risk (inverse) | 15 |
+| Risk (inverse) | 20 |
 
 ---
 
@@ -46,13 +46,13 @@ A deterministic WASM substrate designed for stateful AI agents.
 
 ## Team
 
-Not available from sourced data.
+No founder information is available from sourced data.
 
 ---
 
 ## Market
 
-Targets small and medium-sized businesses (SMBs) with AI integration solutions.
+The product seems to target SMBs, but no specific competitors or market details are provided.
 
 ---
 
@@ -69,29 +69,29 @@ _From sourced data: hacker_news — 3 points, 0 comments_
 ## Risks & Open Questions
 
 
-- No information on the founders raises concerns about team expertise.
+- Lack of founder information raises concerns about team expertise.
 
-- Limited traction signals with only Hacker News activity and no comments.
+- No clear indication of product-market fit or specific SMB use cases.
 
-- Lack of clarity on the product's specific applications for SMBs.
+- Limited traction signals with only Hacker News activity.
 
 
 ---
 
 ## Thesis Alignment
 
-The product fits the thesis of targeting SMBs with AI solutions, but the absence of founder information and limited traction signals are significant drawbacks.
+Trytet aligns with the investment thesis by targeting SMBs and focusing on AI-agent tooling. However, the absence of founder information and limited traction signals are significant drawbacks.
 
 ---
 
 ## What Would Change My Mind?
 
 
-1. Provide information on the founders and their relevant experience.
+1. Provide information about the founders and their relevant experience.
 
-1. Demonstrate clearer traction signals beyond Hacker News.
+1. Demonstrate clear use cases for SMBs that illustrate product-market fit.
 
-1. Clarify the specific use cases for SMBs to enhance product fit.
+1. Show additional traction signals or user feedback beyond Hacker News.
 
 
 ---

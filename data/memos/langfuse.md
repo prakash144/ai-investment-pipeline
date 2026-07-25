@@ -12,17 +12,17 @@ Langfuse is an open-source observability and evaluation platform designed for LL
 
 ## Investment Recommendation
 
-**Watch**
+**Take a meeting**
 
 **Confidence:** Medium
-**Investment Score:** 68 / 100
+**Investment Score:** 75 / 100
 
 | Dimension | Score |
 |-----------|-------|
-| Team | 20 |
+| Team | 25 |
 | Product Fit | 20 |
-| Traction | 15 |
-| Risk (inverse) | 13 |
+| Traction | 25 |
+| Risk (inverse) | 5 |
 
 ---
 
@@ -50,13 +50,13 @@ Langfuse provides an open-source platform for observing and evaluating large lan
 
 ## Team
 
-Maximilian Deichmann has experience building trading systems at Trade Republic, a significant European fintech, indicating strong technical expertise in developing reliable and scalable systems.
+Maximilian Deichmann has experience building trading systems at Trade Republic, a significant fintech company, indicating strong technical expertise relevant to the product.
 
 ---
 
 ## Market
 
-The product targets small and medium-sized businesses (SMBs) looking for solutions in LLM application observability.
+The product targets small and medium-sized businesses (SMBs) looking for reliable tools to manage LLM applications.
 
 ---
 
@@ -73,29 +73,27 @@ _From sourced data: yc_batch — YC W25_
 ## Risks & Open Questions
 
 
-- Limited information on customer adoption or engagement metrics.
+- Dependence on the open-source model may limit monetization strategies.
 
-- Dependence on the open-source model may affect revenue generation.
-
-- Market competition in the LLM observability space is not detailed.
+- Market adoption of LLM applications among SMBs is still developing.
 
 
 ---
 
 ## Thesis Alignment
 
-Langfuse fits the investment thesis as it has a technically strong founder and is targeting SMBs with a relevant product. The traction from Y Combinator adds credibility, although more specific traction metrics would strengthen the case.
+Langfuse fits the investment thesis as it has a technically strong founder and is targeting SMBs with a relevant product. The traction from Y Combinator suggests potential for growth.
 
 ---
 
 ## What Would Change My Mind?
 
 
-1. Evidence of customer adoption or engagement metrics.
+1. Evidence of customer traction or early revenue.
 
-1. Details on revenue generation strategies.
+1. More details on the product's adoption by SMBs.
 
-1. More information on competitive landscape and differentiation.
+1. Clarification on the monetization strategy for the open-source platform.
 
 
 ---

@@ -1,12 +1,12 @@
 {
-  "executive_summary": "Tempo Labs is an AI-powered UI design tool that generates production code, targeting small and medium-sized businesses (SMBs). Founded in 2023 by experienced entrepreneurs with successful exits, the company is part of Y Combinator's Summer 2023 batch. With a strong technical team and a clear product offering, Tempo Labs is positioned to meet the needs of SMBs looking for efficient design solutions. The company shows promise with its recent traction in the startup ecosystem.",
-  "team": "Tempo Labs is founded by Kevin Michael and Peter Gokhshteyn, both of whom have significant experience in product development and engineering. Kevin was the founding engineer and head of product at Perpetua, which had a $150M exit, and Peter was employee #3 at Perpetua, leading the engineering team from idea to product-market fit. Their backgrounds suggest strong technical capabilities and relevant industry experience.",
-  "product": "Tempo Labs offers an AI-powered tool that helps users design user interfaces and generates production-ready code, streamlining the design process for SMBs.",
-  "market": "The product is aimed at small and medium-sized businesses (SMBs) looking for efficient UI design solutions. There are no specific competitors mentioned in the data.",
-  "traction_signals": "Tempo Labs is part of Y Combinator's Summer 2023 batch, indicating recent traction and validation in the startup ecosystem.",
+  "executive_summary": "Tempo Labs is an AI-powered UI design tool that generates production code, targeting small and medium-sized businesses (SMBs). Founded in 2023 by experienced entrepreneurs with successful exits, the company is part of the Y Combinator Summer 2023 batch. With a strong technical team and a clear product offering, Tempo Labs is well-positioned to meet the needs of SMBs looking for efficient design solutions. The company shows promise for further traction as it develops.",
+  "team": "Tempo Labs was co-founded by Kevin Michael, who has a strong background as a founding engineer and head of product at Perpetua, which had a $150M exit. Peter Gokhshteyn, also a co-founder, was an early employee at Perpetua and led the engineering team from idea to product-market fit, with previous experience at Google, Bloomberg, and Zynga.",
+  "product": "Tempo Labs builds an AI-powered tool that helps users design user interfaces and generates the corresponding production code.",
+  "market": "The product is aimed at small and medium-sized businesses (SMBs) looking for efficient UI design solutions. No specific competitors are mentioned in the data.",
+  "traction_signals": "Tempo Labs is part of the Y Combinator Summer 2023 batch, indicating recent traction.",
   "risks": [
     "The company is newly founded in 2023, which may pose risks related to market entry and competition.",
-    "No specific customer traction or revenue data is provided, which makes it difficult to assess market demand."
+    "As a startup in the AI space, it may face challenges in scaling and user adoption."
   ],
   "thesis_alignment": "Tempo Labs fits the investment thesis as it targets SMBs with a technically strong founding team and has visible traction through its participation in Y Combinator.",
   "score": 75,
@@ -19,9 +19,9 @@
   "confidence": "Medium",
   "recommendation": "Take a meeting",
   "change_my_mind": [
-    "Evidence of customer traction or early revenue.",
-    "More details on the competitive landscape and how Tempo Labs differentiates itself.",
-    "Updates on product development milestones or user feedback."
+    "Evidence of early user adoption or customer feedback.",
+    "Details on the product's unique features compared to competitors.",
+    "Information on future funding plans or additional traction signals."
   ],
   "sources": [
     "https://tempo.sh",
