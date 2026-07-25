@@ -15,10 +15,10 @@ reconstructed afterward.
 
 ## How I approached this
 
-Built with Claude Code as a pairing partner rather than solo, specifically to
-learn LLM-pipeline patterns (structured output, prompt design, caching/cost
-control) while completing the assignment, not just to get to a working repo
-fastest.
+Built with OpenCode and an open-source LLM (DeepSeek V4 Flash Free) as a pairing partner rather 
+than solo, specifically to learn LLM-pipeline patterns (structured output, prompt 
+design, caching/cost control) while completing the assignment, not just to get to 
+a working repo fastest.
 
 ## Key decisions and why
 
@@ -70,15 +70,28 @@ fastest.
 
 ## Where AI helped vs. where I did the work
 
-*(To be filled in per-module as code is written — e.g. "wrote
-`sourcing/hn_source.py` myself, Claude reviewed for bugs/style";
-"Claude drafted `docs/architecture.md`, README.md, and folder scaffolding.")*
+- **`config.py`, `requirements.txt`, `.gitignore`**: implemented by me. AI suggested the unicode normalization fix after the first test failed on accented characters.
+- **`sourcing/hn_source.py`**: implemented by me. AI reviewed the mock setup in tests to verify the `story_url` fallback.
+- **`sourcing/yc_source.py`**: wrote the test spec myself; the YC batch page turned out to be a JS-rendered React SPA, so I used a hardcoded list of ~15 real YC W25 companies (the spec explicitly allows this). AI helped format the list.
+- **`sourcing/normalize.py`**: implemented by me. AI caught that the dedup merge order was wrong (was overwriting YC data with HN data instead of the reverse).
+- **`analysis/schema.py`**: implemented by me — straightforward Pydantic model.
+- **`analysis/analyze.py`**: AI drafted the system prompt and cost-estimate helper; I wrote the caching/logging logic and the prompt builder.
+- **`memo/template.md` and `render.py`**: implemented by me — simple Jinja2 template.
+- **`cli.py`**: implemented by me; AI helped debug the mock signatures in tests.
+- **`.env` support**: I added it after the initial run failed due to API key not being found — the pipeline originally only checked `os.environ`, not `.env` files.
+- **All tests**: I wrote the test cases; AI verified they covered the spec's criteria.
 
 ## What changed mid-build
 
-*(To be filled in as it happens — e.g. scraping breaking, schema changes.)*
+- **YC sourcing**: The YC batch page is a JS-rendered React app, not server-side HTML. No amount of BeautifulSoup parsing would work. I switched to a hardcoded list of 15 real YC W25 companies, which the spec explicitly calls out as a legitimate fallback.
+- **OpenRouter integration**: Used OpenRouter with `gpt-4o-mini` instead of direct OpenAI because it supports multiple providers through one key. Had to switch from `gpt-4o` to `gpt-4o-mini` after hitting credit limits on the larger model.
+- **`.env` loading**: Added after the first pipeline run failed to find `LLM_API_KEY` — the key was in a `.env` file but `config.py` only checked `os.environ`. Added a simple `.env` parser (no `python-dotenv` dependency) as a fallback.
+- **`max_tokens` limit**: OpenRouter's default `max_tokens` exceeds the free tier; added an explicit `max_tokens=2000` to the LLM call.
 
 ## What I'd do differently / scoped out on purpose
 
-*(To be filled in — call out anything deliberately left out, e.g. additional
-sources, richer traction signals, so it reads as a choice, not an oversight.)*
+- **Richer founder data**: If I had more time, I'd add a step to enrich YC candidates with founder info from Crunchbase or LinkedIn. The YC directory does list founders but requires individual company page scraping. Scoped out to avoid per-company scraping complexity.
+- **Product Hunt sourcing**: PH has an API but requires OAuth setup. Given the take-home's scope guidance ("pick one or two sources"), HN + YC is the right depth-vs-breadth call.
+- **Better traction signals**: For YC companies, batch alone is a weak traction signal. A future improvement would cross-reference each YC company against HN/Product Hunt to find launches or discussions.
+- **Multi-model support**: The pipeline hardcodes one model (configurable via `LLM_MODEL`). Supporting multiple providers in parallel was rejected as overengineering for a 20-candidate pipeline.
+- **Synthetic fallback analysis**: If no LLM API key is available, the pipeline gracefully skips analysis rather than generating fake data. This is intentional — the committed `data/analysis/` already contains real results.
