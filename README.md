@@ -110,6 +110,7 @@ Outputs (all committed to this repo so they can be read without re-running):
 - [Investment Thesis](docs/THESIS.md) — the specific thesis and scoring rubric this pipeline scores against
 - `docs/specs/` — design spec (the "what") and implementation plan (the "how"), written before any code
 - [Process](docs/PROCESS.md) — decision log: what was decided, why, what AI drafted vs. reviewed; updated as the build progresses
+- [LLM] - https://openrouter.ai/labs
 
 ## Status
 
