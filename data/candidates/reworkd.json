@@ -1,0 +1,14 @@
+{
+  "slug": "reworkd",
+  "name": "Reworkd",
+  "website": "https://reworkd.ai",
+  "description": "AI agent platform for automating browser-based workflows",
+  "founders": null,
+  "traction_signal": {
+    "type": "yc_batch",
+    "detail": "YC W25",
+    "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  },
+  "source": "yc",
+  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+}

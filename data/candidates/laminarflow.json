@@ -1,0 +1,14 @@
+{
+  "slug": "laminarflow",
+  "name": "LaminarFlow",
+  "website": "https://www.lamflo.xyz",
+  "description": "Show HN: LaminarFlow \u2013 AI-native, open-source finance platform for startups",
+  "founders": null,
+  "traction_signal": {
+    "type": "hacker_news",
+    "detail": "7 points, 0 comments",
+    "source_url": "https://news.ycombinator.com/item?id=44144524"
+  },
+  "source": "hn",
+  "source_url": "https://news.ycombinator.com/item?id=44144524"
+}

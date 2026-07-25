@@ -1,0 +1,14 @@
+{
+  "slug": "porter",
+  "name": "Porter",
+  "website": "https://porter.run",
+  "description": "Platform for deploying and managing web applications on AWS",
+  "founders": null,
+  "traction_signal": {
+    "type": "yc_batch",
+    "detail": "YC W25",
+    "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  },
+  "source": "yc",
+  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+}

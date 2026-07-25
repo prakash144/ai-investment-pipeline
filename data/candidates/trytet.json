@@ -1,0 +1,14 @@
+{
+  "slug": "trytet",
+  "name": "Trytet",
+  "website": "https://trytet.com",
+  "description": "Show HN: Trytet \u2013 Deterministic WASM substrate for stateful AI agents",
+  "founders": null,
+  "traction_signal": {
+    "type": "hacker_news",
+    "detail": "3 points, 0 comments",
+    "source_url": "https://news.ycombinator.com/item?id=47621756"
+  },
+  "source": "hn",
+  "source_url": "https://news.ycombinator.com/item?id=47621756"
+}

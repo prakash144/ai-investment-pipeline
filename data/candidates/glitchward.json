@@ -1,0 +1,14 @@
+{
+  "slug": "glitchward",
+  "name": "GlitchWard",
+  "website": "https://glitchward.com",
+  "description": "Show HN: GlitchWard \u2013 Active defense and CIS hardening for neglected SMB servers",
+  "founders": null,
+  "traction_signal": {
+    "type": "hacker_news",
+    "detail": "1 points, 1 comments",
+    "source_url": "https://news.ycombinator.com/item?id=46793799"
+  },
+  "source": "hn",
+  "source_url": "https://news.ycombinator.com/item?id=46793799"
+}

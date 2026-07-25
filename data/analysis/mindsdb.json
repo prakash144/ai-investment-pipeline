@@ -1,0 +1,26 @@
+{
+  "team": "No founder information was found for this company, which raises concerns about the technical expertise and experience necessary to lead an AI-focused startup.",
+  "product": "MindsDB is an open-source platform that allows users to build AI-powered applications that integrate with databases, making it easier for SMBs to leverage AI without extensive technical knowledge.",
+  "market": "The market for AI tools targeting SMBs is growing rapidly, with increasing demand for accessible AI solutions. However, competition is significant, with many players in the AI and database integration space.",
+  "risks": [
+    "Lack of founder visibility raises concerns about leadership and technical direction.",
+    "The crowded market for AI tools may make differentiation challenging.",
+    "Open-source model could lead to monetization challenges."
+  ],
+  "score": 45,
+  "score_breakdown": {
+    "team": 10,
+    "product_fit": 20,
+    "traction": 25,
+    "risk": 20
+  },
+  "recommendation": "Pass",
+  "change_my_mind": [
+    "Provide detailed information about the founders' backgrounds and their relevant experience.",
+    "Demonstrate significant traction beyond the YC batch, such as user growth or partnerships.",
+    "Clarify the unique value proposition and competitive advantages in the crowded AI market."
+  ],
+  "sources": [
+    "https://www.ycombinator.com/companies?batch=W25"
+  ]
+}

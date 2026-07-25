@@ -1,0 +1,14 @@
+{
+  "slug": "mindsdb",
+  "name": "MindsDB",
+  "website": "https://mindsdb.com",
+  "description": "Open-source platform for building AI-powered applications with databases",
+  "founders": null,
+  "traction_signal": {
+    "type": "yc_batch",
+    "detail": "YC W25",
+    "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  },
+  "source": "yc",
+  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+}

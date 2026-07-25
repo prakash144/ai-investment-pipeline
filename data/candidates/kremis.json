@@ -1,0 +1,14 @@
+{
+  "slug": "kremis",
+  "name": "Kremis",
+  "website": "https://github.com/M2Dr3g0n/kremis",
+  "description": "Show HN: Kremis \u2013 Deterministic memory graph for AI agents (Rust)",
+  "founders": null,
+  "traction_signal": {
+    "type": "hacker_news",
+    "detail": "1 points, 0 comments",
+    "source_url": "https://news.ycombinator.com/item?id=47023918"
+  },
+  "source": "hn",
+  "source_url": "https://news.ycombinator.com/item?id=47048981"
+}

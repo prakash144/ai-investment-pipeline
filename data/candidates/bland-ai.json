@@ -1,0 +1,14 @@
+{
+  "slug": "bland-ai",
+  "name": "Bland AI",
+  "website": "https://bland.ai",
+  "description": "AI phone call agents for businesses to automate customer interactions",
+  "founders": null,
+  "traction_signal": {
+    "type": "yc_batch",
+    "detail": "YC W25",
+    "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  },
+  "source": "yc",
+  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+}

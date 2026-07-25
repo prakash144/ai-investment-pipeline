@@ -1,0 +1,14 @@
+{
+  "slug": "garvata",
+  "name": "Garvata",
+  "website": null,
+  "description": "Garvata: Observability and Debugging for AI Agent Stack",
+  "founders": null,
+  "traction_signal": {
+    "type": "hacker_news",
+    "detail": "3 points, 1 comments",
+    "source_url": "https://news.ycombinator.com/item?id=42293942"
+  },
+  "source": "hn",
+  "source_url": "https://news.ycombinator.com/item?id=42293942"
+}

@@ -1,0 +1,26 @@
+{
+  "team": "No founder information was found for this company, which raises concerns about the technical expertise and experience necessary to execute the vision.",
+  "product": "Sieve is a Video AI platform that allows developers to build and deploy video applications, targeting a range of use cases in the SMB sector.",
+  "market": "The video application market is growing rapidly, driven by increased demand for video content across various platforms. However, competition is fierce with established players in the space.",
+  "risks": [
+    "Lack of founder information raises concerns about team capability.",
+    "Highly competitive market with established players.",
+    "Unclear differentiation or unique value proposition."
+  ],
+  "score": 45,
+  "score_breakdown": {
+    "team": 10,
+    "product_fit": 60,
+    "traction": 70,
+    "risk": 30
+  },
+  "recommendation": "Pass",
+  "change_my_mind": [
+    "Provide detailed founder backgrounds showcasing technical expertise and relevant experience.",
+    "Demonstrate a clear differentiation strategy against competitors.",
+    "Showcase significant traction or customer acquisition in the SMB sector."
+  ],
+  "sources": [
+    "https://www.ycombinator.com/companies?batch=W25"
+  ]
+}

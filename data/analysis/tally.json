@@ -1,0 +1,26 @@
+{
+  "team": "No founder information was found for this company, which raises concerns about the technical expertise and experience of the team.",
+  "product": "Tally is a no-code form builder that uses AI to help users create forms easily and quickly.",
+  "market": "The no-code tools market is growing rapidly, especially among SMBs looking for efficient solutions. Competitors include Typeform and Google Forms, but Tally's AI component may provide a unique edge.",
+  "risks": [
+    "Lack of founder information raises concerns about team capability.",
+    "Crowded market with established competitors.",
+    "Unclear differentiation from existing no-code solutions."
+  ],
+  "score": 45,
+  "score_breakdown": {
+    "team": 10,
+    "product_fit": 20,
+    "traction": 25,
+    "risk": 10
+  },
+  "recommendation": "Pass",
+  "change_my_mind": [
+    "Provide detailed information about the founders and their backgrounds.",
+    "Demonstrate significant traction or user growth in the last 12 months.",
+    "Show a clear differentiation strategy against competitors."
+  ],
+  "sources": [
+    "https://www.ycombinator.com/companies?batch=W25"
+  ]
+}

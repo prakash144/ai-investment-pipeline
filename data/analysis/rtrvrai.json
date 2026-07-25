@@ -1,0 +1,26 @@
+{
+  "team": "No founder information was found for this company, which raises concerns about the technical expertise and experience of the team.",
+  "product": "rtrvr.ai is an AI web agent designed to automate workflows and extract data, targeting small and medium-sized businesses.",
+  "market": "The market for AI-driven workflow automation tools is growing rapidly, especially among SMBs looking to improve efficiency. However, competition is increasing with many players entering the space.",
+  "risks": [
+    "Lack of founder information raises concerns about team capability.",
+    "The crowded market for AI workflow tools may lead to challenges in differentiation.",
+    "Unclear product-market fit as the specific needs of SMBs may vary widely."
+  ],
+  "score": 55,
+  "score_breakdown": {
+    "team": 10,
+    "product_fit": 20,
+    "traction": 15,
+    "risk": 10
+  },
+  "recommendation": "Pass",
+  "change_my_mind": [
+    "Provide detailed information about the founders and their relevant experience.",
+    "Demonstrate clear traction with more significant engagement metrics or funding.",
+    "Clarify the unique value proposition and differentiation strategy in the crowded market."
+  ],
+  "sources": [
+    "https://news.ycombinator.com/item?id=42496918"
+  ]
+}

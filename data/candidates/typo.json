@@ -1,0 +1,14 @@
+{
+  "slug": "typo",
+  "name": "Typo",
+  "website": null,
+  "description": "AI writing assistant focused on professional communication",
+  "founders": null,
+  "traction_signal": {
+    "type": "yc_batch",
+    "detail": "YC W25",
+    "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  },
+  "source": "yc",
+  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+}

@@ -1,0 +1,26 @@
+{
+  "team": "No founder information was found for this company, which raises concerns about the technical expertise and experience of the team.",
+  "product": "Dover is an AI-powered recruiting automation platform designed specifically for small and medium-sized businesses (SMBs), helping them streamline their hiring processes.",
+  "market": "The market for recruiting automation tools is growing rapidly, especially among SMBs looking to improve their hiring efficiency. Competitors include established players like Greenhouse and Lever, but there is room for innovation in AI-driven solutions.",
+  "risks": [
+    "Lack of transparency regarding the founding team and their backgrounds.",
+    "Potential competition from established recruiting platforms.",
+    "Unclear differentiation in a crowded market."
+  ],
+  "score": 55,
+  "score_breakdown": {
+    "team": 10,
+    "product_fit": 25,
+    "traction": 25,
+    "risk": 15
+  },
+  "recommendation": "Pass",
+  "change_my_mind": [
+    "Provide detailed information about the founding team and their relevant experience.",
+    "Demonstrate significant traction or user engagement metrics beyond being part of a YC batch.",
+    "Show a clear competitive advantage or unique value proposition in the recruiting automation space."
+  ],
+  "sources": [
+    "https://www.ycombinator.com/companies?batch=W25"
+  ]
+}

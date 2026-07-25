@@ -1,0 +1,26 @@
+{
+  "team": "No founder information was found for this company, which raises concerns about the technical expertise and experience of the team.",
+  "product": "Porter is a platform that helps users deploy and manage web applications on AWS, targeting small to medium-sized businesses.",
+  "market": "The market for cloud application management is growing rapidly, with increasing adoption among SMBs. However, competition is high with established players in the space.",
+  "risks": [
+    "Lack of founder information raises concerns about team capability.",
+    "High competition in the cloud application management market.",
+    "Unclear differentiation from existing solutions."
+  ],
+  "score": 45,
+  "score_breakdown": {
+    "team": 10,
+    "product_fit": 60,
+    "traction": 70,
+    "risk": 30
+  },
+  "recommendation": "Pass",
+  "change_my_mind": [
+    "Provide detailed information about the founders and their relevant experience.",
+    "Demonstrate a clear competitive advantage or unique selling proposition.",
+    "Show significant traction or customer adoption metrics."
+  ],
+  "sources": [
+    "https://www.ycombinator.com/companies?batch=W25"
+  ]
+}

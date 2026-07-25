@@ -1,0 +1,14 @@
+{
+  "slug": "tally",
+  "name": "Tally",
+  "website": "https://tally.so",
+  "description": "No-code form builder with AI-powered form creation",
+  "founders": null,
+  "traction_signal": {
+    "type": "yc_batch",
+    "detail": "YC W25",
+    "source_url": "https://www.ycombinator.com/companies?batch=W25"
+  },
+  "source": "yc",
+  "source_url": "https://www.ycombinator.com/companies?batch=W25"
+}

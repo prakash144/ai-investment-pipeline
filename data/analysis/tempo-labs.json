@@ -1,0 +1,26 @@
+{
+  "team": "No founder information was found for this company, which raises concerns about the technical expertise and experience of the team.",
+  "product": "Tempo Labs offers an AI-powered UI design tool that generates production code, making it easier for SMBs to create user interfaces without extensive coding knowledge.",
+  "market": "The market for AI-driven design tools is growing rapidly, especially among SMBs looking to streamline their design processes. Competitors include Figma and Adobe XD, but Tempo Labs aims to differentiate itself with its code generation capabilities.",
+  "risks": [
+    "Lack of founder visibility raises concerns about team capability.",
+    "Crowded market with established competitors.",
+    "Unclear differentiation from existing tools."
+  ],
+  "score": 45,
+  "score_breakdown": {
+    "team": 10,
+    "product_fit": 20,
+    "traction": 25,
+    "risk": 10
+  },
+  "recommendation": "Pass",
+  "change_my_mind": [
+    "Provide detailed information about the founders and their backgrounds.",
+    "Demonstrate clear traction metrics or user adoption rates.",
+    "Showcase unique features that differentiate the product from competitors."
+  ],
+  "sources": [
+    "https://www.ycombinator.com/companies?batch=W25"
+  ]
+}

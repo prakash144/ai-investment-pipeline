@@ -1,0 +1,14 @@
+{
+  "slug": "fincrew",
+  "name": "FinCrew",
+  "website": null,
+  "description": "FinCrew: Multi-Agent AI Financial Intelligence",
+  "founders": null,
+  "traction_signal": {
+    "type": "hacker_news",
+    "detail": "1 points, 1 comments",
+    "source_url": "https://news.ycombinator.com/item?id=47148718"
+  },
+  "source": "hn",
+  "source_url": "https://news.ycombinator.com/item?id=47148718"
+}
