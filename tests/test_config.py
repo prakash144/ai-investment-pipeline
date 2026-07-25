@@ -1,4 +1,5 @@
 import pytest
+import config
 from config import slugify, get_llm_api_key
 
 
@@ -17,6 +18,7 @@ class TestSlugify:
 class TestGetLlmApiKey:
     def test_returns_none_when_unset(self, monkeypatch):
         monkeypatch.delenv("LLM_API_KEY", raising=False)
+        monkeypatch.setattr(config, "_load_dotenv", lambda: None)
         assert get_llm_api_key() is None
 
     def test_returns_value_when_set(self, monkeypatch):

@@ -5,7 +5,7 @@ from pathlib import Path
 from openai import OpenAI
 
 from analysis.schema import Analysis
-from config import get_llm_api_key
+from config import get_llm_api_key, get_llm_api_base
 
 
 class NoApiKeyError(Exception):
@@ -90,7 +90,7 @@ def get_or_analyze(candidate: dict, thesis: str, cache_dir: Path = Path("data/an
         raise NoApiKeyError(f"no LLM_API_KEY set and no cached analysis for '{candidate.get('name', slug)}'")
 
     if llm_client is None:
-        llm_client = OpenAI(api_key=api_key)
+        llm_client = OpenAI(api_key=api_key, base_url=get_llm_api_base())
 
     prompt = build_prompt(candidate, thesis)
 
@@ -101,6 +101,8 @@ def get_or_analyze(candidate: dict, thesis: str, cache_dir: Path = Path("data/an
             {"role": "user", "content": prompt},
         ],
         response_format={"type": "json_object"},
+        max_tokens=2000,
+        temperature=0.1,
     )
 
     content = response.choices[0].message.content

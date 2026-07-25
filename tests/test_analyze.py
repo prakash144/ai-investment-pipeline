@@ -4,6 +4,7 @@ from pathlib import Path
 from unittest.mock import MagicMock, patch
 
 import pytest
+import config
 from analysis.analyze import build_prompt, get_or_analyze, NoApiKeyError
 from analysis.schema import Analysis
 
@@ -50,6 +51,7 @@ class TestGetOrAnalyze:
         cache_dir = tmp_path / "analysis"
         cache_dir.mkdir()
         monkeypatch.delenv("LLM_API_KEY", raising=False)
+        monkeypatch.setattr(config, "_load_dotenv", lambda: None)
 
         candidate = {"slug": "new-co", "name": "New Co", "website": None, "description": "", "founders": None, "traction_signal": None, "source": "hn", "source_url": ""}
 
