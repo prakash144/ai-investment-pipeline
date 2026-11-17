@@ -704,11 +704,6 @@ The final submission should include:
 - Documentation showing planning, AI workflow, and design decisions
 - ~5-minute walkthrough video demonstrating one startup end-to-end
 
-Additionally, add the following collaborators to the private GitHub repository:
-
-- `chiragmakkar`
-- `hari@emsoft.com`
-
 ---
 
 # Key Takeaways
